@@ -1,0 +1,883 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>David's returne from his banishment set forth in a thanks-giving sermon for the returne of His Sacred Majesty Charles the II, and preached at St. Maries in Oxon, May 27, 1660 / by Francis Gregory ...</title>
+            <author>Gregory, Francis, 1625?-1707.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1660</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 111 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A42043</idno>
+            <idno type="STC">Wing G1888</idno>
+            <idno type="STC">ESTC R13480</idno>
+            <idno type="EEBO-CITATION">12846774</idno>
+            <idno type="OCLC">ocm 12846774</idno>
+            <idno type="VID">94467</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A42043)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 94467)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 713:21)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>David's returne from his banishment set forth in a thanks-giving sermon for the returne of His Sacred Majesty Charles the II, and preached at St. Maries in Oxon, May 27, 1660 / by Francis Gregory ...</title>
+                  <author>Gregory, Francis, 1625?-1707.</author>
+               </titleStmt>
+               <extent>[6], 35 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Henry Hall ...,</publisher>
+                  <pubPlace>Oxford [Oxfordshire] :</pubPlace>
+                  <date>1660.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Marginal notes.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Samuel, 2nd, XIX, 30 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-10</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-05</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:94467:1"/>
+            <pb facs="tcp:94467:1" rendition="simple:additions"/>
+            <p>
+               <hi>DAVID'S</hi> Returne FROM HIS BANISHMENT.</p>
+            <p>Set forth in a <hi>Thanks-giving SERMON</hi> for the Returne of his Sacred <hi>MAJESTY</hi> CHARLES the II.</p>
+            <p>And <hi>Preached</hi> at S<hi rend="sup">t</hi> 
+               <hi>Maries</hi> in OXON. <hi>May</hi> 27. 1660.</p>
+            <p>By FRANCIS GREGORY Maſter of Arts, and Schoolmaſter at <hi>Woodſtock</hi> in the County of <hi>OXON.</hi>
+            </p>
+            <p>OXFORD.</p>
+            <p>Printed by <hi>Henry Hall,</hi> Printer to the UNIVERSITY 1660.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:94467:2"/>
+            <pb facs="tcp:94467:2"/>
+            <head>To the Right Worſhipfull S<hi rend="sup">r</hi> THOMAS SPENCER <hi>Knight and Baronet;</hi> And EDVVARD ATKINS <hi>Eſquire, Counſellor at Law,</hi> Being <hi>Burgeſſes</hi> in <hi>Parliament</hi> for the Burrough of <hi>VVoodſtock</hi> in the County of <hi>OXFORD.</hi>
+            </head>
+            <opener>
+               <salute>GENTLEMEN,</salute>
+            </opener>
+            <p>
+               <hi>
+                  <seg rend="decorInit">H</seg>Is Sacred</hi> MAJESTY's <hi>long</hi> Abſence, <hi>being the</hi> fruit <hi>of our</hi> ſins, <hi>was alſo, and that de<g ref="char:EOLhyphen"/>ſervedly, the</hi> ſubject <hi>of our</hi> Sorrow: <hi>His</hi> MAJESTY's <hi>late</hi> return, <hi>be<g ref="char:EOLhyphen"/>ing, as we hope, the</hi> Anſwer <hi>of our</hi> Prayers, <hi>is now, and that</hi> deſervedly <hi>too, the</hi> Mat<g ref="char:EOLhyphen"/>ter <hi>of our Joy. The</hi> Argument <hi>of this</hi>
+               <pb facs="tcp:94467:3"/>
+Sermon, <hi>is, the</hi> return <hi>of</hi> David, King <hi>of</hi> Iſrael, <hi>to</hi> Ieruſalem; <hi>and to</hi> whom <hi>can I then</hi> preſent <hi>it, but to</hi> You, <hi>who have been</hi> Inſtruments, <hi>of</hi> our Choyce, <hi>but in</hi> Gods hand, <hi>to bring back</hi> our David, King <hi>of</hi> England, <hi>to his</hi> Ieruſalem <hi>too.</hi>
+            </p>
+            <p>
+               <hi>I dare not</hi> expect <hi>your</hi> Patronage <hi>for this</hi> poor <hi>Diſcourſe; I humbly</hi> beg <hi>your</hi> Acceptance: <hi>in</hi> my own <hi>and our</hi> Cor<g ref="char:EOLhyphen"/>poration's <hi>name, I offer you this</hi> Mite <hi>of</hi> Thanks, <hi>inſtead of a</hi> Talent <hi>of</hi> Debt. <hi>I do, and ever ſhall want,</hi> Ability <hi>to make a</hi> Pay<g ref="char:EOLhyphen"/>ment; <hi>but, I hope, I ſhall never want</hi> Inge<g ref="char:EOLhyphen"/>nuity <hi>to make an</hi> Acknowledgment. <hi>I can do no more, but</hi> beg <hi>a</hi> bleſſing <hi>upon your</hi> Perſons, Families, <hi>and</hi> conſultati<g ref="char:EOLhyphen"/>ons <hi>for the eſtabliſhment of this</hi> Church <hi>and</hi> Nation <hi>upon the</hi> ſure <hi>foundation of</hi> Truth <hi>and</hi> Peace.</p>
+            <closer>
+               <signed>Your Worſhips moſt Engaged<lb/>
+Friend and faithfull Ser<g ref="char:EOLhyphen"/>vant<lb/>
+F. GREGORY.</signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:94467:3"/>
+            <head>To the Reader.</head>
+            <opener>
+               <salute>Chriſtian Reader,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg> Have formerly publiſhed ſeverall Sermons from the <hi>Pulpit,</hi> but none from the <hi>Preſſe,</hi> till now. <hi>Empty</hi> Diſcourſes may be <hi>heard,</hi> though <hi>naked</hi> Diſcourſes would not be <hi>ſeen.</hi> Some <hi>Sermons,</hi> like <hi>Travellours,</hi> dare <hi>paſſe</hi> along, where yet they dare not <hi>dwel.</hi> My <hi>Sermons</hi> crowd among thoſe, that dare venture one <hi>Hearing,</hi> but not abide a <hi>Tryall.</hi> However, I am now reſolved to venture my <hi>Credit</hi> among the <hi>People,</hi> leſt I ſhould ſeem, to have for<g ref="char:EOLhyphen"/>got my <hi>Loyalty</hi> to my <hi>Prince.</hi> I have ſent this Sermon abroad to <hi>mind</hi> the Nation, what God himſelfe <hi>hath done,</hi> and what he requires <hi>us to do,</hi> for our <hi>KING.</hi> I confeſſe, this Sermon hath in it little, but <hi>Truth,</hi> to encourage <hi>me</hi> to <hi>Print,</hi> or <hi>Thee</hi> to <hi>read</hi> it; the <hi>ſubject</hi> indeed is <hi>high</hi> and <hi>Royall;</hi> but the <hi>Style</hi> too <hi>low</hi> and <hi>mean;</hi> The <hi>matter</hi> of it is the <hi>Glory</hi> of our <hi>Nation,</hi> but the <hi>Form,</hi> I fear, will render it the <hi>Readers Toedium</hi> and the <hi>writers bluſh;</hi> however, as I do not at all expect thy <hi>Applauſe,</hi> ſo do not I much fear thy <hi>Cenſure;</hi> ſure I am, this Diſcourſe deſerveth nei<g ref="char:EOLhyphen"/>ther; not thine <hi>Applauſe,</hi> becauſe 'tis <hi>Plain;</hi> not thy <hi>Cen<g ref="char:EOLhyphen"/>ſure,</hi> becauſe 'tis <hi>honeſt.</hi> It was not penned altogether
+<pb facs="tcp:94467:4"/>
+               <hi>ex Tempore,</hi> yet much of it without <hi>due</hi> deliberation. It vvas <hi>put</hi> into the <hi>Oven,</hi> but had not <hi>time</hi> to be <hi>thorough<g ref="char:EOLhyphen"/>ly</hi> baked; I made all poſſible <hi>haſt,</hi> that I might be among thoſe that <hi>fetched back David.</hi> Thou wilt find more of the Authours <hi>affection,</hi> then <hi>Judgment;</hi> more of his <hi>Heart</hi> then his <hi>Head</hi> therein. Such as it is, the <hi>Printer</hi> puts it into thy Hands, with this Requeſt: for the <hi>Occaſion</hi> of this Sermon, <hi>bleſſe</hi> our <hi>God;</hi> for its failings, <hi>excuſe</hi> the <hi>Authour.</hi> Farewell</p>
+            <closer>
+               <signed>The <hi>Lords</hi> and <hi>thine</hi>
+                  <lb/>
+F. GREGORY.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:94467:4"/>
+            <epigraph>
+               <bibl>2 SAM. 19. 30.</bibl>
+               <q>
+                  <hi>And</hi> Mephiboſheth <hi>ſaid unto the King, yea, let him take all, for aſmuch as my Lord the King is come againe in peace to his owne houſe.</hi>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>He Text conteineth that ſubmiſſive anſwer, which <hi>Mephiboſheth,</hi> a <hi>loyall Subject,</hi> returned to <hi>David,</hi> his <hi>lawfull Soveraigne.</hi> It was lately <hi>Davids</hi> lot to be baniſhed from his Throne; in the time of <hi>Da<g ref="char:EOLhyphen"/>vid's</hi> exile, poor lame <hi>Mephiboſheth</hi> through the treachery of <hi>Ziba</hi> is forc<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d to continue at <hi>Ieruſalem; Ziba,</hi> his <hi>ſervant,</hi> becomes his <hi>accuſer;</hi> to <hi>gaine</hi> his <hi>eſtate,</hi> he <hi>ſlan<g ref="char:EOLhyphen"/>ders</hi> his <hi>perſon;</hi> to make him a <hi>beggar,</hi> he repreſents him as a <hi>Tray<g ref="char:EOLhyphen"/>tour;</hi> by a falſe impeachment of Treaſon <hi>Ziba</hi> gaines thoſe lands for <hi>himſelfe,</hi> which he had lately managed for his <hi>Maſter:</hi> Well, <hi>David</hi> returnes, <hi>Mephiboſheth</hi> cleares his <hi>innoc<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nce,</hi> yet not his <hi>eſtate: David</hi> ſtill leaveth one halfe in the hand of <hi>Ziba: Thou</hi> and <hi>Ziba divide the land:</hi> well, but how doth <hi>Mephiboſheth</hi> bear it? <note place="margin">
+                  <hi>verſ.</hi> 29.</note> 
+               <hi>David</hi> had now recovered his <hi>owne right,</hi> and is <hi>Mephiboſheth</hi> con<g ref="char:EOLhyphen"/>tent, that <hi>David</hi> ſhould give away <hi>his?</hi> Surely, <hi>Mephiboſheth</hi> be<g ref="char:EOLhyphen"/>ing the <hi>Grand-child</hi> of a <hi>King,</hi> the <hi>Son</hi> of a <hi>Prince,</hi> and the ſole <hi>Heir</hi> of <hi>both,</hi> his eſtate muſt needs be ſomewhat conſiderable: now, to loſe hut <hi>on<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> halfe</hi> of a fair eſtate were a loſſe that <hi>every</hi> man would not bear, and how doth <hi>he?</hi> Why, to manifeſt his <hi>l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ve</hi> to <hi>David's perſon,</hi> to teſtifie his <hi>joy</hi> for <hi>David's returne</hi> to his Throne, he is wil<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing, upon that account, not onely to part with <hi>halfe,</hi> but <hi>all:</hi> ſo runs the Text: <hi>And Mephiboſheth ſaid unto the King, &amp;c.</hi>
+            </p>
+            <p>
+               <pb n="2" facs="tcp:94467:5"/>
+The Text conteineth <hi>two</hi> Generall parts.</p>
+            <p n="1">1. A <hi>Preface;</hi> and therein the <hi>Perſons</hi> concerned as the <hi>Subjects</hi> of this Diſcourſe, and thoſe are two: <hi>Mephiboſheth,</hi> and <hi>David;</hi> a <hi>Subject</hi> and a <hi>King;</hi> Perſons indeed of <hi>different</hi> degrees, yet <hi>joyned</hi> in the Text: <hi>And Mephiboſheth ſaid unto the King.</hi>
+            </p>
+            <p n="2">2. The <hi>Subſtance</hi> of <hi>Mephiboſheth's</hi> anſwer to King <hi>David:</hi> and therein are <hi>four</hi> things conſiderable:</p>
+            <p n="1">1. The <hi>title,</hi> which he giveth him: <hi>My Lord the King:</hi> 'tis not, <hi>David</hi> a <hi>tyrant: David</hi> thou <hi>man</hi> of <hi>blood;</hi> O no, 'tis for a railing <hi>Shimei</hi> thus to <hi>blaſph<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>me</hi> the Lords Anointed; <hi>Mephiboſheth</hi> know<g ref="char:EOLhyphen"/>eth no ſuch language as this is; <hi>David</hi> indeed had done enough to <hi>provoke Mephiboſheth</hi> againſt him, &amp; yet <hi>Mephib<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſheth</hi> knows no title for <hi>David,</hi> but this: <hi>My Lord the King:</hi> the note from hence is this:</p>
+            <p>
+               <hi>That th<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re is a great r<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſpect, rev<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nce, and honour due to the Davids of God; to the perſons of Kings and Princes.</hi>
+            </p>
+            <p n="2">2. David's <hi>exile,</hi> Davids <hi>baniſhment</hi> from his Court and Throne, <hi>My Lord the King is come againe:</hi> The expreſſion implyeth, that <hi>David</hi> had been <hi>abſent, David</hi> had been <hi>driven</hi> from <hi>Ieruſalem;</hi> David's <hi>Scepter</hi> was even now in <hi>another</hi> man's <hi>hand:</hi> David's <hi>houſe</hi> was ere while in <hi>another</hi> man's <hi>poſſeſſion:</hi> there was an <hi>Abſalom,</hi> that even now was got upon <hi>David's Throne: My Lord the King is come againe:</hi> if ſo, 'tis clear, that <hi>David</hi> had been forced to <hi>fly:</hi> the note from hence is this,</p>
+            <p>
+               <hi>That God ſometimes is pleaſed to ſuffer his owne Davids, his Anoin<g ref="char:EOLhyphen"/>ted ones, even the choiceſt of Kings and Princes, to be baniſht from their Courts and Kingdomes: David</hi> was none of the <hi>worſt</hi> of Kings, and yet <hi>this David</hi> was driven away.</p>
+            <p n="3">3. David's <hi>returne,</hi> David's <hi>reſtauration</hi> to his Throne: and there<g ref="char:EOLhyphen"/>in are two things conſiderable:</p>
+            <p n="1">1. The <hi>manner</hi> of <hi>Davids</hi> returne: <hi>My Lord the King is come a<g ref="char:EOLhyphen"/>gain in peace:</hi> 'Tis mentioned as a <hi>ſingular mercy: my Lord the King is come againe:</hi> there's much in that, yea but, <hi>my Lord the King is come againe in peace:</hi> O that, that's bleſſed newes indeed! David's <hi>abſence</hi> had been Mephiboſheth's <hi>ſorrow,</hi> yea but David's <hi>returne</hi> in <hi>peace</hi> proveth his <hi>joy:</hi> the note from hence is this:</p>
+            <p>
+               <hi>That for God to reſtore his Davids, his anointed <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s, to their crownes and Kingdomes, but eſpecially in peace, is a ſignall mercy, a ſingular ground of joy.</hi>
+            </p>
+            <p n="2">
+               <pb n="3" facs="tcp:94467:5"/>
+2. The <hi>place,</hi> to which <hi>David</hi> was now returned, and whither's that? 'tis not ſaid, <hi>My Lord the King is come again to Ieruſalem:</hi> 'tis not ſaid, <hi>My Lord the King is come to ſuch or ſuch a Noble man's houſe;</hi> but, <hi>to his owne houſe:</hi> the note from hence is this:</p>
+            <p>
+               <hi>That the Lands and Houſes, which belong to the Crownes of Princes, are ſuch, as they may juſtly call their owne.</hi> That <hi>Palace,</hi> where <hi>Da<g ref="char:EOLhyphen"/>vid</hi> dwelt at <hi>Ieruſalem,</hi> in Scripture language, is here ſaid to be, <hi>His owne houſe.</hi>
+            </p>
+            <p n="4">4. Mephiboſheths <hi>loyalty</hi> towards his <hi>Soveraigne, David</hi> indeed is now returned, but what is that to <hi>Mephib<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſheth?</hi> why, alas! <hi>Da<g ref="char:EOLhyphen"/>vid</hi> ſtill giveth away halfe his inheritance, and what ſaith hee? <hi>yea let him take all:</hi> as if he had ſaid, is it like to go well with <hi>David?</hi> why, then 'tis no matter how it goeth with <hi>mee;</hi> is the <hi>Church</hi> and <hi>Nati<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n</hi> like to become a <hi>gainer?</hi> what then, though <hi>Mephiboſheth</hi> prove a <hi>loſer?</hi> here<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s my joy, <hi>My Lord the King is come again in peace to his owne houſe;</hi> and if ſo, <hi>let him take all.</hi> The note from thence is this,</p>
+            <p>
+               <hi>That the r<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſtitution of a Gracious Prince to his Throne, is a mercy to be entertained with joy, even though it tend to a man's own<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> perſonall loſſe and diſadvantage.</hi> Mephiboſheth cannot but <hi>joy</hi> for David's returne, though he himſelfe become a conſiderable <hi>loſer.</hi>
+            </p>
+            <div type="doctrine">
+               <head>1. Doctrine.</head>
+               <p>
+                  <hi>That there is a great reſp<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ct, reverence and honour due to the Davids of God, to the p<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rſons of Kings and Princes.</hi> See this in <hi>two</hi> particulars;</p>
+               <p n="1">1. There is an <hi>humble deportment,</hi> a <hi>reverentiall behaviour</hi> uſed by the <hi>Saints</hi> of God towards Kings and Princes. <hi>Nathan bowed him<g ref="char:EOLhyphen"/>ſelfe</hi> 
+                  <note place="margin">1 <hi>Reg.</hi> 1. 23.</note> 
+                  <hi>before the King.</hi> no poſture of body more reverent then this; <hi>Saints</hi> bow to <hi>God, Nathan</hi> bowed before the <hi>King;</hi> but how <hi>low</hi> did <hi>Nathan</hi> bow? Why? <hi>with his face to the ground.</hi> Surely, <hi>Nathan</hi> himſelf was a <hi>perſon</hi> of <hi>Honour,</hi> not only as a <hi>Saint,</hi> but as a <hi>Prophet</hi> too; <hi>Prophets</hi> were the <hi>Anointed</hi> ones of God as well as <hi>Kings;</hi> but yet the <hi>Mitre</hi> falls before the <hi>Crown;</hi> if the <hi>Prince</hi> ſit upon the <hi>Throne,</hi> the <hi>Prophet</hi> muſt ly at his <hi>foot-ſtoole:</hi> But why do I ſpeake of <hi>Nathan? Bathſheba bowed and did obeyſance to the King:</hi> 
+                  <note place="margin">1 <hi>Reg.</hi> 1. 16.</note> 
+                  <hi>Bathſh<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ba</hi> lookes upon <hi>David,</hi> not onely as her <hi>husband,</hi> but as her <hi>S<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>v<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>raigne</hi> too; with <hi>David</hi> her <hi>husband</hi> ſhee might be <hi>familiar;</hi> but with <hi>David</hi> her <hi>Soveraign</hi> ſhee dares not bee <hi>irreverent:</hi> there was
+<pb n="4" facs="tcp:94467:6"/>
+indeed a <hi>conjugall union,</hi> and yet a <hi>civill diſtance</hi> between them: <hi>Bathſheba,</hi> as ſhee was Davids <hi>Spouſe,</hi> lay in his <hi>boſome;</hi> but, as ſhee was David's <hi>Subject,</hi> ſhe lyeth at his <hi>feet,</hi> but why all this? Doth <hi>Nathan</hi> only <hi>court</hi> his Prince? doth <hi>Bathſh<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ba</hi> but <hi>complement</hi> with her husband? ſurely no; they both underſtood the <hi>Princes honour,</hi> and the <hi>Subjects duty.</hi>
+               </p>
+               <p n="2">2. There are <hi>titles</hi> of <hi>honour</hi> beſtowed upon Kings and Princes: ſee this in <hi>two</hi> Particulars;</p>
+               <p n="1">1. <hi>M<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n, good</hi> and <hi>bad, Saints</hi> and <hi>ſinners,</hi> beſtow theſe titles upon them: when Princes have been <hi>holy,</hi> even <hi>ſinners</hi> have given them honour; and why ſo; ſurely, not for their <hi>h<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>lineſſe,</hi> but for their <hi>Majeſty.</hi> Againe, when Princes have been <hi>unholy,</hi> even the <hi>Saints</hi> of God have ſhewed them reſpect; And why ſo? Surely, not be<g ref="char:EOLhyphen"/>cauſe they were <hi>ſinners,</hi> but becauſe they were <hi>Soveraigns. My Lord the King,</hi> ſaith <hi>David</hi> to <hi>Saul; Saul</hi> was none of the <hi>beſt</hi> of Princes, at leſt, he was not ſo to <hi>David; Saul</hi> doth not the duty <note place="margin">1 <hi>Sam.</hi> 24 8.</note> of a <hi>King,</hi> and yet <hi>David</hi> will do the duty of a <hi>Subject</hi> ſtill: <hi>Saul</hi> hath not one good <hi>word</hi> for <hi>David,</hi> and yet <hi>David</hi> hath ſtill a <hi>title</hi> of <hi>Honour</hi> for <hi>Saul, My Lord the King:</hi> and why ſo? Surely, 'twas not <hi>courtſhip,</hi> but <hi>duty;</hi> it was not <hi>ſlattery</hi> but <hi>loyalty;</hi> had <hi>David</hi> ſhewed leſſe reſpect to <hi>Saul</hi> his Prince, he had ſhewed him<g ref="char:EOLhyphen"/>ſelfe, not onely leſſe a <hi>Subject,</hi> but leſſe a <hi>Saint.</hi>
+               </p>
+               <p n="2">2. <hi>God himſelfe</hi> beſtows theſe titles upon them—It's true, <hi>Saints</hi> may beſtow reſpect where 'tis not due—Yea, but where <hi>God</hi> beſtows honour, he there <hi>makes</hi> it <hi>due—They are not afraid to ſpeak evill of dignities—</hi>Men may ſpeak <hi>evill</hi> of princes, but <hi>God</hi> 
+                  <note place="margin">2 <hi>Pet.</hi> 2. 10.</note> calls them <hi>dignities</hi> ſtill<hi>—I have raiſed thee up—</hi>Saith God to <hi>Pha<g ref="char:EOLhyphen"/>raoh;</hi> if <hi>Pharaoh</hi> be a <hi>king,</hi> though but a bad one, yet God <hi>own<g ref="char:EOLhyphen"/>eth</hi> him as a man raiſed up by himſelfe; well, but to what doth <note place="margin">
+                     <hi>Rom.</hi> 9. 17.</note> God raiſe up <hi>Kings?</hi> Surely, not onely to their <hi>thron<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s,</hi> but to their <hi>titles</hi> too, and what are they!<hi>—My lord th<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> King is as an</hi> 
+                  <note place="margin">2 <hi>Sa.</hi> 19. 27.</note> 
+                  <hi>angell of God—</hi>That's a title of honour indeed, but who beſtowes it? alas! tis <hi>Mephiboſheth</hi> a poor mortall man; yea but when once <hi>God</hi> comes to beſtow titles of honour upon <hi>Kings</hi> and <hi>Princes,</hi> He ſpeaks at another rate, and how is that?<hi>—I have ſaid, yee are Gods,—</hi>Surely, there's no title ſo high as this, that <hi>God,</hi> who <note place="margin">
+                     <hi>Pſal.</hi> 82. 6.</note> numbers <hi>himſelfe</hi> among <hi>Kings,</hi> is alſo pleaſed to number <hi>Kings</hi>
+                  <pb n="5" facs="tcp:94467:6"/>
+among <hi>Gods—Deus immortalis rex, rex mortalis Deus—God</hi> is an <hi>immortall King,</hi> the <hi>King</hi> is a <hi>mortall</hi> God; God is pleaſed to <hi>borrow their</hi> name, and to <hi>l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd</hi> them <hi>his—I have ſaid, ye<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> are Gods—</hi>'tis obſervable, that this title is beſtowed upon <hi>wick<gap reason="illegible" resp="#APEX" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </hi> princes; Kings, that are as <hi>devills</hi> in <hi>practiſe,</hi> are mentioned as <hi>Gods</hi> in <hi>place.</hi> Now, if Kings and Princes receive their titles of honour from <hi>God</hi> and men, from <hi>Saints</hi> and <hi>Sinners,</hi> tis an argument, that there is a reverentiall reſpect belonging to them. But, you'l ſay, why ſo? I anſwer;</p>
+            </div>
+            <div type="reasons">
+               <head>Reaſons.</head>
+               <p n="1">1. God commands it<hi>—Fear God, Honour the King—Quiſ-quis</hi> deum timet, <hi>etiam</hi> regibus honorem <hi>habebit—</hi>Saith <hi>Calvin;</hi> 
+                  <note place="margin">1 <hi>Pet.</hi> 2. 17.</note> never did man truely <hi>fear God,</hi> but he likewiſe <hi>honoured</hi> the <hi>King.</hi> But what if Kings prove <hi>Tyrants?</hi> Why, <hi>Etiam tyrannis, qui imperium obtinent, honor habendus—</hi>Saith he; Princes, if <hi>ty<g ref="char:EOLhyphen"/>rants,</hi> yet becauſe <hi>Princes,</hi> muſt be honoured ſtill—God hath made Kings and Princes, as the <hi>fountaines,</hi> ſo the objects of <hi>ho<g ref="char:EOLhyphen"/>nour</hi> too; Men <hi>may</hi> receive honour <hi>from</hi> them, but men <hi>muſt</hi> give honour <hi>to</hi> them; if the <hi>King</hi> honour <hi>us,</hi> that is his <hi>favour;</hi> but if <hi>we</hi> honour <hi>him,</hi> that's our <hi>duty,</hi> and that becauſe 'tis Gods <hi>command.</hi> I read of perſons highly honoured at the command of <hi>men; Pharaoh</hi> commands to honour <hi>Ioſeph,</hi> and what follow<g ref="char:EOLhyphen"/>eth?—<note place="margin">
+                     <hi>Gen.</hi> 41. 34.</note> 
+                  <hi>The people cry before him, bow th<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> knee—</hi>A <hi>Prince</hi> ho<g ref="char:EOLhyphen"/>nours a <hi>Subject,</hi> the <hi>King</hi> makes him a <hi>knight,</hi> a <hi>Lord,</hi> an <hi>Earl,</hi> and what then? Why, we reſpect that man as a <hi>Knight,</hi> a <hi>Lord,</hi> an <hi>Earl,—Thus ſhall it be done to the man, whom the King delights</hi> 
+                  <note place="margin">
+                     <hi>Eſt.</hi> 6. 6.</note> 
+                  <hi>to honour—</hi>Yea, but ſhall not much more be done to the man whom <hi>God</hi> delights to honour? O Surely, if the <hi>Princes honour</hi> be the <hi>command</hi> of <hi>God,</hi> to deny that honour, muſt needs be the <hi>Sin</hi> of <hi>man.</hi>
+               </p>
+               <p n="2">2. Kings and Princes are of Gods <hi>ordination—The powers that</hi> 
+                  <note place="margin">
+                     <hi>Rom.</hi> 13. 1.</note> 
+                  <hi>be, are ordained of God—</hi>'Tis not ſaid—The powers, that are <hi>righteouſly exerciſed,</hi> but the powers that <hi>be—</hi>God ownes them all, <hi>By me Kings reigne:</hi> tis not ſaid, <hi>Good</hi> Kings, <hi>righteous</hi> Kings, <note place="margin">
+                     <hi>Prov.</hi> 8. 15.</note> but <hi>Kings</hi> in the <hi>generall; Non fortuitò <gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>vecti ſunt magiſtratus ad honorem, ſed Dei provid ntiâ,</hi> ſaith <hi>Calvin;</hi> tis not <hi>Chance,</hi> but <hi>Pro<g ref="char:EOLhyphen"/>vidence;</hi> tis not <hi>Fortune,</hi> but <hi>God,</hi> that advanceth Kings and Prin<g ref="char:EOLhyphen"/>ces:
+<pb n="6" facs="tcp:94467:7"/>
+                  <hi>I have raiſed thee up,</hi> ſaith God to <hi>Pharaoh:</hi> if <hi>Pharaoh</hi> wear a Crown, tis <hi>God</hi> that ſets it upon his <hi>head;</hi> if <hi>Pharaoh</hi> manage the <hi>Sc<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>pter,</hi> 'tis <hi>God</hi> that puts it into his <hi>hand. Malis dominand<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> poteſtas non datur, niſi ſumm<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>i providentiâ,</hi> ſaith <hi>Auſtin,</hi> the moſt <hi>un<g ref="char:EOLhyphen"/>righteous Kings</hi> receive their power from the moſt <hi>righteous</hi> God, <hi>Qui imp<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rium d<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>dit Auguſto, them &amp; N<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>r<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ni<g ref="char:punc">▪</g> Qui Conſtantino Chriſtian<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>, ipſe Apoſtatae Iuliano,</hi> ſaith that Father<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> That <hi>God,</hi> who ſet up <hi>Auguſtus,</hi> one of the <hi>b<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſt</hi> of the <hi>Romane</hi> Emperours, did alſo ſet <hi>up N<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ro,</hi> that <hi>monſter</hi> of men, that <hi>ſame</hi> God, that exalted <hi>Con<g ref="char:EOLhyphen"/>ſtantine</hi> a <hi>Chriſtian,</hi> did alſo exalt <hi>Iulian</hi> an <hi>apoſtate.</hi> The <hi>Heathen</hi> confeſſed this truth, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>—Kings are from God; and if ſo, if Princes bear the <hi>ſtamp,</hi> the <hi>image,</hi> the <hi>inſtituti<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n</hi> of God, they muſt needs be perſons of Honour.</p>
+               <p n="3">3. Kings and Princes are <hi>ſupr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>me. Let every ſoule be ſubject to the high<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>r powers.</hi> Surely, if <hi>every</hi> ſoul muſt be <hi>ſubiect,</hi> it ſeemes <note place="margin">
+                     <hi>Rom.</hi> 13. 1.</note> there's no ſoul <hi>equall:</hi> well, but who are <hi>Paul's</hi> higher powers? doubtleſſe, the higher powers at that time were the <hi>Romane Em<g ref="char:EOLhyphen"/>perours, Kings</hi> and <hi>Princes:</hi> So <hi>Peter</hi> ſeems to tell us, <hi>Submit your ſelves;</hi> to whom? <hi>whether to the King, as ſupreme:</hi> there lieth in the <note place="margin">1 <hi>Pet.</hi> 2. 13.</note> words an <hi>exhortation</hi> and an <hi>argument</hi> to preſſe it, <hi>Submit your ſelves to the King,</hi> there's the <hi>exhortation; to the King as ſupreme,</hi> there's the <hi>argument.</hi> Tis not ſaid, <hi>ſubmit to the King,</hi> as <hi>holy,</hi> as <hi>righteous,</hi> but as <hi>ſupreme.</hi> I know, 'tis a queſtion, <hi>an dominium fundatur in gratia?</hi> but ſurely, <hi>dominion</hi> in the <hi>King, obedience</hi> in the <hi>Subiect,</hi> are both founded not in the Princes <hi>holineſſe,</hi> but in his <hi>Supremacy.</hi> I ſhall not diſpute, whether this text doth <hi>ponere</hi> or <hi>ſupponere,</hi> whether it <hi>barely ſuppoſeth,</hi> or <hi>peremptorily affirmeth</hi> the King to be ſupreme; only thus, the <hi>uſuall</hi> ſupremacy of Kings is that, which another Scripture ſeemeth to aſſert, <hi>It ſhall bring him to the King of terrours.</hi> Death is here ſtiled the <hi>King</hi> of <hi>terrours,</hi> what is that? ſurely, that which the <hi>Philoſopher</hi> meanes <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <note place="margin">
+                     <hi>Ioh.</hi> 18. 14.</note> the <hi>ſuprem<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>,</hi> the <hi>higheſt,</hi> the <hi>greateſt</hi> of terrours; if the <hi>King</hi> be not <hi>ſupreme,</hi> there's little <hi>ſavour</hi> in that expreſſion. I find, <hi>ſuprema<g ref="char:EOLhyphen"/>cy</hi> is that which Kings <hi>challenge,</hi> and are loath to <hi>part</hi> with. <hi>Pha<g ref="char:EOLhyphen"/>raoh</hi> indeed imparts <hi>much</hi> of his honour to <hi>Ioſeph,</hi> but yet he tels <note place="margin">
+                     <hi>Gen.</hi> 41. 40.</note> him, <hi>I will be greater in the throne then thou. Ioſeph</hi> was high, and yet ſtill but the <hi>Second</hi> man in the Kingdome. Nay more, <hi>ſuprema<g ref="char:EOLhyphen"/>cy</hi> 
+                  <note place="margin">2 <hi>Sam.</hi> 12. 7.</note>
+                  <pb n="7" facs="tcp:94467:7"/>
+is that, which <hi>God</hi> ſeemeth to aſcribe to <hi>Kings</hi> and Princes, <hi>I anointed thee King over Iſrael,</hi> if David be <hi>King,</hi> then is David <hi>over</hi> Iſrael; <hi>Rex omnibus maior, ſolo Deo minor,</hi> ſaith <hi>Tertullian,</hi> theſe <hi>Gods</hi> on <hi>earth</hi> know no ſuperiour, but that <hi>one God</hi> in <hi>heaven.</hi> Hence is that of Saint <hi>Auſtin: Rex ſemper honorandus, ſi non propter ſe, at tamen propter cr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>inem:</hi> Kings are for ever perſons of <hi>h<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nour;</hi> if not for their <hi>Goodn<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſſe,</hi> yet for their <hi>Greatn<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſſe.</hi> There is an honour due to <hi>inferiour</hi> Magiſtrates, but ſurely to the <hi>Prince</hi> much more: if there be a glory of <hi>Starres,</hi> there muſt needs be a glory of the <hi>Sun:</hi> If the <hi>little hils</hi> be <hi>exalted,</hi> doubtleſſe the <hi>mountaines</hi> cannot ly <hi>low;</hi> if there be an honour due to a <hi>Iudge</hi> upon the <hi>bench,</hi> O then what honour is due to the <hi>Prince</hi> upon the <hi>Throne!</hi> But,</p>
+               <p n="4">4. Kings and Princes are <hi>Perſons</hi> of <hi>value: caeteris paribus,</hi> none ſo conſiderable as they: that, which makes things reſpected, is their value; and who is ſo valuable as <hi>Kings?</hi> God valueth none ſo much as <hi>Kings</hi> and <hi>Saints.</hi> 'Tis with men, as 'tis with a ſet of counters: 'tis true, if counters be ſhuffled together in a <hi>Box,</hi> they are all <hi>alike:</hi> ſo here, if the <hi>Prince</hi> and the <hi>P<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>aſant</hi> be ſhuffled together into their <hi>graves,</hi> their <hi>duſt</hi> is <hi>equall:</hi> but now, if you caſt an <hi>ac<g ref="char:EOLhyphen"/>count,</hi> this counter ſtands for <hi>one,</hi> but that for <hi>ten;</hi> this counter ſtands for <hi>hundreds,</hi> but that for <hi>Thouſands:</hi> 'tis thus with <hi>men:</hi> in the world God hath the <hi>accounts</hi> of his <hi>Pr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>vidence</hi> to be caſt, the <hi>p<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>or</hi> man ſtands for <hi>one,</hi> but the <hi>rich</hi> man ſtands for <hi>ten;</hi> the <hi>Noble man</hi> ſtands for <hi>hundreds,</hi> but the <hi>Prince</hi> for <hi>Thouſands:</hi> ſo did Da<g ref="char:EOLhyphen"/>vid, <hi>Thou art worth ten thouſand of us:</hi> But why ſo? Surely David, whil'ſt a <hi>Sheepheard,</hi> ſtood but for <hi>unities,</hi> yea but David, when once <note place="margin">2 <hi>Sam.</hi> 18. 3.</note> a <hi>King,</hi> ſtands for <hi>thouſands:</hi> David, conſidered as the <hi>Son</hi> of <hi>Ieſſe,</hi> ſtood but for ſingle <hi>tens</hi> at moſt: yea but David conſidered as the <hi>Lords anointed,</hi> ſtands for <hi>ten thouſand</hi> at leaſt. Now, if <hi>things</hi> be reſpected for their <hi>value,</hi> why not <hi>perſons?</hi> None ſo conſiderable as Kings, and if ſo, who ſo honourable as <hi>They?</hi>
+               </p>
+               <p n="5">5. Kings and Princes have an <hi>honourable ſtation</hi> here in the world: ſee this in <hi>three</hi> particulars:</p>
+               <p n="1">1. The <hi>truſt,</hi> which God repoſeth in Kings and Princes, is a <hi>truſt</hi> of <hi>honour.</hi> God counts himfelfe <hi>honoured,</hi> when we <hi>truſt</hi> him: if a friend dare truſt us with his <hi>ſilver</hi> and <hi>gold,</hi> it is our honour. In the Courts of earthly Princes, <hi>places</hi> of great <hi>truſt</hi> are <hi>places</hi> of <hi>honour</hi>
+                  <pb n="8" facs="tcp:94467:8"/>
+too; 'tis a mans <hi>glory</hi> to be intruſted with the Prince's <hi>Seal,</hi> with the Prince's <hi>treaſure;</hi> now <hi>Kings,</hi> under <hi>Chriſt,</hi> are the great <hi>tru<g ref="char:EOLhyphen"/>ſtees</hi> of God, they are the <hi>Lord-keepers</hi> of heaven, <hi>Cuſt<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s utri<g ref="char:EOLhyphen"/>uſque tabulae;</hi> they are the <hi>Lord-tr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>aſurers</hi> of heaven: God truſts them with his <hi>treaſure,</hi> his <hi>Iewels,</hi> his <hi>Saints;</hi> God truſts them with our <hi>eſtates,</hi> our <hi>liberties,</hi> our <hi>lives,</hi> our <hi>religion,</hi> our <hi>ſoules,</hi> and what truſt like this?</p>
+               <p n="2">2. The <hi>relations</hi> of Kings and Princes are <hi>relations</hi> of <hi>honour.</hi> The <hi>Kings</hi> of <hi>Iſrael</hi> are ſtiled <hi>the heads of the tribes of Iſrael:</hi> and ſurely, no <hi>memb<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>r</hi> ſo honourable as the <hi>head;</hi> Princes wear their <hi>crown<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s</hi> not in their <hi>hands,</hi> but upon their <hi>heads;</hi> tis the <hi>head</hi> that deſerveth this honour. <hi>Kings ſhall be thy nurſing fathers:</hi> Kings are <hi>Fath<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rs,</hi> there's their <hi>Relation;</hi> they are <hi>Nurſing</hi> fathers, <note place="margin">
+                     <hi>Eſa.</hi> 49. 23.</note> there's their <hi>Truſt.</hi> Tis an honour to be the father of a <hi>child,</hi> but what is it to be the father of a <hi>country?</hi> ſuch a father can never want an <hi>heir,</hi> and ſuch a father ſhould never want an <hi>honour.</hi>
+               </p>
+               <p n="3">3. The <hi>employment</hi> of Kings and Princes is an <hi>employment of ho<g ref="char:EOLhyphen"/>nour.</hi> Men are honourable, not alwaies for what they <hi>are,</hi> but for what they <hi>do;</hi> 'tis not ſo much the <hi>man,</hi> as the man's <hi>employment,</hi> that challengeth our reſpect. Not <hi>Ioſeph</hi> a <hi>priſoner,</hi> but <hi>Ioſeph</hi> Pha<g ref="char:EOLhyphen"/>raoh's <hi>Lord high ſteward,</hi> is the man that is honoured. Men <hi>ignobly</hi> born, wrapped in <hi>raggs,</hi> if call'd to ſome <hi>high</hi> employment, may wear their ſcarlet <hi>robes,</hi> as <hi>perſons of h<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nour:</hi> well, but what employ<g ref="char:EOLhyphen"/>ment ſo high as that of <hi>Kings</hi> and <hi>princes?</hi> Tis an employment of honour to be the governour of a <hi>town</hi> or a <hi>caſtle,</hi> but what is it to be the governour of a <hi>Nation?</hi> Kings are the <hi>vice-royes</hi> of heaven, Gods <hi>vice-gerents</hi> upon earth, <hi>he is the miniſter of God:</hi> God owns <note place="margin">
+                     <hi>Rom.</hi> 13. 4. <hi>Pſal.</hi> 18. 50.</note> Kings as Deputies o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> his, <hi>great deliverance giveth he to his King:</hi> and why <hi>his?</hi> ſurely, <hi>his</hi> by <hi>patent, his</hi> by <hi>delegation.</hi> Our <hi>miniſters</hi> are the <hi>ambaſſadors</hi> of <hi>Chriſt,</hi> our <hi>Princes</hi> the <hi>deputies</hi> of <hi>God.</hi> The Miniſter <hi>intreats,</hi> the Prince <hi>commands,</hi> and both in the <hi>ſt<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ad</hi> of God, <hi>Ye<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>jud<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e not f<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>r man, but for the Lord,</hi> what is that? ſurely, <note place="margin">2 <hi>Chr.</hi> 19. 6.</note> as <hi>for</hi> the <hi>glory,</hi> ſo <hi>in</hi> the <hi>roome</hi> of God. Now is there not a reſpect due to Kings and Princes for this? we give a reſpect to the <hi>Major</hi> of a Corporation, and why ſo? poſſibly the man's but a <hi>beggar,</hi> poſſibly the man's but a <hi>ſcandal<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>us</hi> ſinner; yea but he is the King's <note place="margin">
+                     <hi>Pſal.</hi> 49. 20.</note> 
+                  <hi>Lieuetenant,</hi> he repreſents the Prince, and for that we reſpect him:
+<pb n="9" facs="tcp:94467:8"/>
+ſo here, ſhould Kings and Princes be naught, yet they are <hi>God's vice-ger<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nts</hi> ſtill; conſider them as <hi>men,</hi> ſo they may be <hi>vile;</hi> con<g ref="char:EOLhyphen"/>ſider them as <hi>Magiſtrates,</hi> ſo they muſt be <hi>h<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nourable. Man being</hi> 
+                  <note place="margin">
+                     <hi>Pſal.</hi> 49. 20.</note> 
+                  <hi>in honour, and having no underſtanding, is like the beaſts that periſh.</hi> The text implieth, that a man may be without <hi>underſtanding,</hi> with<g ref="char:EOLhyphen"/>out <hi>Grace,</hi> and yet be <hi>a man in Hon<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ur</hi> ſtill. 'Tis true, the Prince's <hi>ſin</hi> may <hi>degra<gap reason="illegible" resp="#APEX" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </hi> him, in Gods account, even <hi>below</hi> the Condition of <hi>beaſts;</hi> yea but the Prince's <hi>Place</hi> and Employment <hi>exalt</hi> him <hi>above</hi> the common Condition of <hi>Men.</hi>
+               </p>
+            </div>
+            <div type="uses">
+               <head>
+                  <g ref="char:V">Ʋ</g>ſes.</head>
+               <div n="1" type="application">
+                  <head>1. <hi>Of Information.</hi>
+                  </head>
+                  <p>Is there indeed a great <hi>reſpect, reverence,</hi> and <hi>honour</hi> due to <hi>Kings</hi> and <hi>Princes?</hi> then ſurely this Doctrine informes us how much thoſe perſons are too <hi>blam<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>,</hi> that deny this reverentiall re<g ref="char:EOLhyphen"/>ſpect, that juſtly belongs to the Lord's anointed. See who they are in three particulars.</p>
+                  <p n="1">1. Men are too <hi>blame,</hi> that entertaine dishonourable <hi>thoughts of,</hi> and <hi>diſloyall wiſhes to</hi> their Kings and Princes, <hi>Curſe not the King,</hi> 
+                     <note place="margin">
+                        <hi>Eccl.</hi> 10. 20.</note> 
+                     <hi>no not in thy thought.</hi> God layeth a reſtraint, not only upon our <hi>words</hi> and <hi>actions,</hi> but even upon our <hi>thoughts.</hi> Its true, <hi>high trea<g ref="char:EOLhyphen"/>ſon</hi> conſiſteth in <hi>words</hi> and <hi>actions,</hi> but yet there is a <hi>p<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>tty Treaſon</hi> even in <hi>thoughts, How long will ye imagine miſchiefe againſt a man?</hi> What <hi>man</hi> doth <hi>David</hi> mean? ſurely, <hi>himſelfe</hi> the <hi>king.</hi> Tis a ſin <note place="margin">
+                        <hi>Pſal.</hi> 62. 4.</note> not only to <hi>doe,</hi> but to <hi>imagine</hi> miſchiefe againſt the <hi>Prince.</hi> Indeed there's little <hi>danger</hi> in thoughts alone, but yet in thoughts alone there is much of <hi>ſin.</hi> Treaſon only in <hi>thoughts</hi> hurts not the <hi>Prince</hi> its <hi>Object,</hi> but ſtill it doth hurt the <hi>ſoul</hi> its <hi>ſubject; Bl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſſe them that</hi> 
+                     <note place="margin">
+                        <hi>Mat.</hi> 5. 44.</note> 
+                     <hi>curſe you,</hi> yea that is <hi>Chriſtian;</hi> yea but to <hi>curſe</hi> them in thoughts, whom we ſtand bound to <hi>bl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſſe,</hi> that is <hi>deviliſh.</hi>
+                  </p>
+                  <p n="2">2. Men are too <hi>blame,</hi> that <hi>ſpeak unadviſed words</hi> concerning Kings and Princes. <hi>They are not afraid to ſp<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ak evill of digniti<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s;</hi> They <hi>are</hi> not afraid, but the expreſſion implieth, they <hi>ſhould</hi> be <note place="margin">2 <hi>Pet.</hi> 2. 10.</note> afraid. That God who <hi>holds</hi> our <hi>hands,</hi> doth alſo <hi>ſtop</hi> our <hi>mouths, Who may ſay to a King, what doſt thou?</hi> Tis not, who <hi>dares</hi> ſay? but who <hi>may</hi> ſay! who <hi>ought</hi> to ſay? So <hi>Elihu</hi> interprets it, <hi>Is it fit</hi> 
+                     <note place="margin">
+                        <hi>Eccl.</hi> 8. 4.</note> 
+                     <hi>to ſay to a King, thou art wicked, and to Princes, ye are ungodly?</hi> Tis not ſaid, is it <hi>ſafe</hi> to ſay? but, is it <hi>fit</hi> to ſay? It implieth that in <note place="margin">
+                        <hi>Iob.</hi> 34. 18.</note>
+                     <pb n="10" facs="tcp:94467:9"/>
+ſaying ſo, there is not only <hi>danger</hi> but <hi>ſin, Thou ſhalt not revile the</hi> 
+                     <note place="margin">
+                        <hi>Exod.</hi> 22. 28.</note> 
+                     <hi>Gods, nor curſe the ruler of thy people;</hi> to <hi>ſpeak</hi> againſt the <hi>King,</hi> is to <hi>ſin</hi> againſt the <hi>Lord.</hi> God himſelfe hath <hi>tied</hi> our tongues, and yet alas! how do tongues <hi>break</hi> out in this particular? <hi>Come out, come out, thou bloudy man, thou man of Belial:</hi> that is <hi>Shimei's</hi> lan<g ref="char:EOLhyphen"/>guage <note place="margin">2 <hi>Sam.</hi> 16. 7.</note> to David <hi>King</hi> of <hi>Iſrael;</hi> well, and what hath been <hi>our</hi> lan<g ref="char:EOLhyphen"/>guage to <hi>David</hi> King of <hi>England?</hi> Its true, David <hi>King</hi> of <hi>Iſrael</hi> had his <hi>ſins,</hi> and David <hi>King</hi> of <hi>England</hi> had his <hi>miſcarriages</hi> too; but yet remember, the <hi>ſpots</hi> of Princes are <hi>magnified</hi> by the <hi>perſon</hi> that weares them. That which looks but like an <hi>Infirmity</hi> in the <hi>Subiect,</hi> in the <hi>King</hi> would look like a <hi>crimes</hi> a <hi>freckle</hi> in the <hi>face</hi> is more viſible then a <hi>ſcar</hi> in the <hi>foot.</hi> I am perſwaded, that day, that <hi>England</hi> loſt the <hi>lateſt</hi> of her Kings, that day the <hi>world</hi> loſt the <hi>beſt</hi> of its Kings. Tis not eaſie to ſay, whether he were more <hi>patient</hi> in his <hi>ſufferings</hi> or <hi>innocent</hi> in his <hi>doings;</hi> Tis not eaſie to ſay, whether hee were the <hi>better King,</hi> or the <hi>better Chriſti<g ref="char:EOLhyphen"/>an.</hi> Well, what <hi>language</hi> found our <hi>England's David</hi> from a<g ref="char:EOLhyphen"/>mongſt us? <hi>Come out, come out, thou oppreſſour, a way with a Tyrant;</hi> Yea, but why a <hi>Tyrant?</hi> why an <hi>Oppreſſour?</hi> ſurely, <hi>ſince</hi> his death <hi>England</hi> hath <hi>ſtoutly</hi> born more <hi>heavy</hi> burdens then ever; and that looks like an <hi>argument,</hi> that the <hi>King</hi> of England had not <hi>cracked</hi> our <hi>ſhould<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rs</hi> &amp; <hi>broke</hi> our <hi>back,</hi> Oh no, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> The Dogs bark at the <hi>M<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>on,</hi> and why ſo? the <hi>moon</hi> indeed hath ſome <hi>ſpots,</hi> but yet the Dogs do not bark at the <hi>Moon</hi> upon that account, it may be her <hi>light</hi> offends them; ſurely, it was not the <hi>ſpots,</hi> but the <hi>Glory,</hi> the <hi>honour,</hi> the <hi>dignity</hi> of his <hi>late Maieſty,</hi> that made the <hi>dogs</hi> ſo bark at England's <hi>Sun.</hi> Alas! alas! ſuch bitter language was intended as his <hi>reproach,</hi> but it proves our <hi>ſhame;</hi> we fought againſt his <hi>authority</hi> with <hi>ſwords</hi> in our <hi>hands,</hi> there's our <hi>rebellion;</hi> we fought againſt his <hi>name</hi> and <hi>honour</hi> with <hi>ſwords</hi> in our <hi>mouths,</hi> there's our <hi>Blaſphemy.</hi>
+                  </p>
+                  <p n="3">3. Men are <hi>highly</hi> too <hi>blame</hi> that <hi>act</hi> againſt their Kings and Princes. If it be a ſin to <hi>think,</hi> what is it then to <hi>ſpeak?</hi> if it be a ſin to <hi>ſpeak,</hi> what is it then to <hi>act?</hi> and yet alas, ſuch men have been amongſt us! <hi>Submit your ſelves to the King,</hi> ſaith God, <hi>riſe up a<g ref="char:EOLhyphen"/>gainſt the King,</hi> ſay men; <hi>Honour the King,</hi> ſaith God, <hi>reproach the
+<pb n="11" facs="tcp:94467:9"/>
+King,</hi> ſay men; <hi>Pray for the King,</hi> ſaith God, <hi>pray againſt the King,</hi> ſay men. Surely, men do not well remember that o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> the Apoſtle, <hi>whoſoever reſiſteth the power, reſiſteth the ordinance of God:</hi> it's true, <hi>men</hi> make the <hi>crown,</hi> tis <hi>God</hi> that makes the <hi>King;</hi> to <hi>melt</hi> the <note place="margin">
+                        <hi>Rom.</hi> 13. 2.</note> 
+                     <hi>crown,</hi> is to <hi>deſtory</hi> but the workmanſhip of <hi>man,</hi> to <hi>make</hi> away the <hi>King,</hi> is to deſtroy the workmanſhip of <hi>God;</hi> 'tis that which we have done both waies, we have made away both <hi>King</hi> and <hi>crown.</hi> I read, how <hi>tender</hi> David was in this particular, <hi>God f<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rbid, that I ſhould ſtretch forth mine hand againſt the Lords anointed.</hi> David had <note place="margin">1 <hi>Sam.</hi> 24. 6.</note> now <hi>King Saul</hi> in his <hi>power,</hi> but yet he <hi>ſpareth</hi> him, and why ſo? alas! if David had <hi>killed</hi> Saul, being his <hi>enemy,</hi> it had been <hi>cruelty,</hi> and yet that David <hi>ſpar<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>d</hi> him, being the <hi>King,</hi> it was not <hi>mercy,</hi> but <hi>Loyalty</hi> and <hi>Iuſtice.</hi> The text tells us, that when David cut off the <hi>skirt</hi> of his <hi>Soveraigne's garment, his heart ſmote him;</hi> you will ſay, why then did he do it? Surely, to evidence, that although <hi>King Saul</hi> was a <hi>perſecutour</hi> indeed, yet <hi>Subiect David</hi> would be <hi>no Tray<g ref="char:EOLhyphen"/>t<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ur;</hi> ſure it is, when David cut off Saul's <hi>ſkirt,</hi> he might as eaſily have cut off his <hi>head,</hi> as we have done; but <hi>the Lord forbid,</hi> ſaith David: if David took up armes, he uſed them not to <hi>deſtroy</hi> the <hi>life</hi> of his <hi>Prince,</hi> but to <hi>defend</hi> his <hi>own.</hi> David well underſtood, that for him to murder Saul, would be a <hi>Treaſon</hi> againſt his <hi>Sove<g ref="char:EOLhyphen"/>raign,</hi> a <hi>ſin</hi> againſt his <hi>God,</hi> a <hi>wound</hi> to his <hi>own ſoul!</hi>
+                  </p>
+               </div>
+               <div n="2" type="application">
+                  <head>2. Uſe of Exhortation.</head>
+                  <p>Is there indeed a great <hi>reſpect, reverence</hi> &amp; <hi>honour</hi> due to Kings &amp; Princes? is it that which God himſelf requires? O then be ex<g ref="char:EOLhyphen"/>horted</p>
+                  <p n="1">1. To <hi>mourn</hi> over and <hi>beg pardon</hi> for the ſad <hi>miſcarriages</hi> of <hi>Eng<g ref="char:EOLhyphen"/>land</hi> towards the Lords anointed ones. We are bound to <hi>honour</hi> our Kings and Princes; well, and how have we done it? <hi>Murder</hi> the <hi>Father! baniſh</hi> the <hi>Son!</hi> is <hi>this</hi> the honour we owe them? are our ſolemne <hi>oaths</hi> and <hi>covenants</hi> come to <hi>this?</hi> we ſware to <hi>pre<g ref="char:EOLhyphen"/>ſerve</hi> his Majeſties <hi>Sacred perſon,</hi> and yet we have <hi>killed</hi> him; when we ſware to make him a <hi>Glorious Prince,</hi> did we intend to make him a <hi>Glorious Martyr</hi> too? ſurely, <hi>Martyrd<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>m</hi> it was upon <hi>his</hi> account, though <hi>murder</hi> upon <hi>Ours.</hi> Alas! to bring a Prince from a <hi>Palace</hi> to a <hi>ſcaffold,</hi> from a <hi>Throne</hi> to a <hi>block,</hi> is <hi>this</hi> the <hi>duty</hi> that God requires from <hi>Subiects?</hi> ſhall I ſhew you the <hi>foulneſſe</hi> of that act in 4 Particulars?</p>
+                  <p n="1">
+                     <pb n="12" facs="tcp:94467:10"/>
+1. Twas an act of <hi>high Iniuſtice.</hi> You will ſay, againſt <hi>whom?</hi> I anſwer, againſt <hi>God</hi> and <hi>Man.</hi>
+                  </p>
+                  <p n="1">1. Againſt <hi>God.</hi> Kings are <hi>Gods Deputies,</hi> and is it juſt with <hi>man</hi> to <hi>remove</hi> them? Kings are <hi>God's Vice-ger<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nts,</hi> and is it juſt for <hi>man</hi> to <hi>pull</hi> them <hi>down?</hi> O ſurely, Kings are accountable to none but God, who gives them their commiſſion; <hi>Reges in ipſos Imperium eſt Iovis,</hi> ſaith <hi>H<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>race,</hi> that God alone, who <hi>exalts</hi> the Prince, hath power to <hi>degrade</hi> him; for <hi>men</hi> to <hi>depoſe</hi> and <hi>execute</hi> Princes, is boldly to <hi>invade</hi> the <hi>right</hi> of God, the <hi>Prerogative</hi> of <hi>Heaven.</hi>
+                  </p>
+                  <p n="2">2. Againſt <hi>man:</hi> I mean both <hi>King</hi> and <hi>Subiect.</hi>
+                  </p>
+                  <p n="1">1. Twas an act of <hi>high Injuſtice</hi> againſt the <hi>King</hi> himſelfe. Alas! our King loſt his <hi>pretious bloud,</hi> as no <hi>Subject</hi> can ordinarily loſe a <hi>penny:</hi> what a <hi>ſubject</hi> loſeth, he loſeth by <hi>law,</hi> he muſt loſe by the <hi>judgment</hi> of his <hi>Peers;</hi> well, and by what <hi>law</hi> did our King loſe his life? not by the law of <hi>heaven,</hi> that commands an <hi>honour;</hi> not by the law of <hi>England,</hi> that requires <hi>obedience;</hi> well, but was he judged by his <hi>Peeres?</hi> ſurely, Kings have no Peeres at all; but how<g ref="char:EOLhyphen"/>ever, was he judged by his <hi>Nobles?</hi> ſurely no, of all the <hi>Nobles, Ba<g ref="char:EOLhyphen"/>rons, Earles, Marqueſſes, Dukes</hi> of England, I think, there was not ſo much as one among the <hi>Iudges</hi> of the <hi>King:</hi> O no, thoſe <hi>ſtars</hi> hid their faces, and would not ſee their <hi>Sun</hi> eclypſed. It was the <hi>Shrub</hi> that pull'd our <hi>C<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>dar</hi> down; they were but <hi>whelps</hi> that tore out our <hi>Lyons</hi> throat; it was the <hi>dirty foot</hi> that kickt off England's <hi>royall head;</hi> Our <hi>Gracious</hi> Prince, that died <hi>without a law,</hi> without a <hi>Legall Iury,</hi> died with as much <hi>injuſtice</hi> as <hi>innocence.</hi>
+                  </p>
+                  <p n="2">2. Twas an act of high injuſtice againſt the <hi>Subiect:</hi> when <hi>England</hi> loſt her <hi>King, ſubiects</hi> as <hi>children</hi> loſt their <hi>father;</hi> wee have ſmarted under the laſh of <hi>ſtep fathers</hi> ever ſince: when <hi>Eng<g ref="char:EOLhyphen"/>land</hi> loſt her <hi>Prince, ſubiects</hi> as <hi>ſheep</hi> loſt their <hi>ſheepheard,</hi> and have not the <hi>wolves</hi> devoured us ever ſince? when <hi>England</hi> loſt her <hi>So<g ref="char:EOLhyphen"/>veraigne, ſubiects</hi> as <hi>members</hi> loſt their <hi>head</hi> well, ſuppoſe <hi>England</hi> deſerved this loſſe, yet what have our <hi>n<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ighbour-nations</hi> done? had it been juſt for <hi>Engliſh men</hi> to kill the <hi>King</hi> of <hi>England,</hi> yet was it iuſt for <hi>us</hi> to kill the <hi>King</hi> of <hi>Ireland,</hi> the <hi>King</hi> of <hi>Scotland</hi> too? if we muſt needs behead <hi>our ſelves,</hi> yet muſt we behead our <hi>neighb<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>urs</hi> too? O diſmall ſtroke! O act of injuſtice! an act that renders <hi>three</hi> nations <hi>fatherleſſe</hi> at <hi>one</hi> blow. But</p>
+                  <p n="2">
+                     <pb n="13" facs="tcp:94467:10"/>
+2. Twas an act of the greateſt <hi>cruelty</hi> imaginable. Had the death of the King been <hi>juſt,</hi> yet it had been <hi>cruell</hi> too; indeed, Judges muſt be juſt, but ſtill Judges muſt not be cruell; as to the <hi>act</hi> it ſelfe, <hi>Iuſtice</hi> was but <hi>pretended,</hi> but as to the <hi>circumſtances</hi> of the act, the <hi>Cruelty</hi> was <hi>Reall:</hi> tis reſolved, the King muſt die, but <hi>when</hi> and <hi>where?</hi>
+                  </p>
+                  <p n="1">1. <hi>Wh<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>n</hi> muſt he dy? why, the <hi>third day</hi> after his <hi>ſentence:</hi> A <hi>ſhort</hi> time, you will ſay, for a <hi>King</hi> to ſet <hi>his</hi> houſe in order, to di<g ref="char:EOLhyphen"/>ſpoſe of <hi>three</hi> Kingdomes; but as to that, his enemies reſolve to do it <hi>for</hi> him, hee needs no longer time on <hi>that</hi> account; well, but the King muſt die the <hi>third</hi> day, alas! a <hi>ſhort</hi> time of <hi>repentance</hi> for ſo <hi>notori<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>us</hi> a ſinner as his enemies made him; had not the <hi>Kings in<g ref="char:EOLhyphen"/>nocence</hi> been greater then the <hi>mercy</hi> of <hi>Rebels,</hi> they took the ſpee<g ref="char:EOLhyphen"/>dieſt courſe to turne his <hi>body</hi> into the <hi>Grave,</hi> and his <hi>ſoul</hi> into <hi>Hell,</hi> the ſame moment: tell me, what though <hi>Iuſtice</hi> muſt be done <gap reason="illegible" resp="#APEX" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> the <hi>body,</hi> yet is there no <hi>charity</hi> to be ſhewed the <hi>ſoul?</hi> if the King be unfit for <hi>earth,</hi> yet let him have a little longer time to prepare for <hi>Heaven:</hi> O no, there is <hi>no reprieve,</hi> no not for a <hi>day,</hi> though the Saints of God <hi>beg'd</hi> it with <hi>Teares.</hi> But bleſſed be God, our <hi>King</hi> was <hi>fit</hi> to die, and upon that account, had no more <hi>need</hi> to <hi>deſire,</hi> then his enemies had <hi>will</hi> to <hi>grant,</hi> the leaſt delay.</p>
+                  <p n="2">2. <hi>Where</hi> muſt he dye? alas! at <hi>his own door.</hi> When he was <hi>dead,</hi> he might not be <hi>buried</hi> in his <hi>own</hi> proper <hi>grave;</hi> but when he is to <hi>dy,</hi> that is to be done at his <hi>own gate.</hi> Poor Prince! the place of his <hi>Royalty</hi> muſt be the place of his <hi>Execution.</hi> Well, and was there <hi>no</hi> place could ſerve but this! Surely, tis that which muſt needs <hi>imbitt<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>r</hi> his death the more; at one view he is forced to behold his <hi>f<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rmer Glory,</hi> and his <hi>preſent Calamity;</hi> did not the <hi>very place</hi> miniſter an occaſion to the <hi>King</hi> of ſuch thoughts as theſe? alas! I <hi>was once</hi> a <hi>King,</hi> there ſtands my <hi>Palace!</hi> I am <hi>now</hi> a condemned <hi>priſoner,</hi> lo, here is my <hi>Scaffold!</hi> I <hi>
+                        <gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nce</hi> lived as a <hi>Prince,</hi> yonder is my <hi>Throne!</hi> I muſt <hi>now</hi> die as a <hi>Malefact<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ur,</hi> lo, here is my <hi>bl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ck!</hi> I once <hi>lived</hi> as Englands lawfull <hi>Sov<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>raigne,</hi> yonder my <hi>N<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>bles</hi> were <hi>then</hi> about me! I muſt now <hi>dye</hi> like a <hi>Tyrant,</hi> behold my <hi>Exe<g ref="char:EOLhyphen"/>cuti<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ner!</hi> Alas! Poor Prince! but O cruell Subiects! before he ſhall <hi>dy,</hi> he muſt be minded in what <hi>P<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>mp</hi> 
+                     <gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e had <hi>lived:</hi> at <hi>
+                        <gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nce</hi> he muſt ſee the <hi>axe</hi> and the <hi>Scepter;</hi> to make him a compleat, not
+<pb n="14" facs="tcp:94467:11"/>
+only <hi>man,</hi> but <hi>Princ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> of <hi>ſorrowes;</hi> he muſt not <hi>loſe</hi> his <hi>head,</hi> till he once more <hi>view</hi> his <hi>crown,</hi> that adorned it.</p>
+                  <p n="3">3. Twas an act of <hi>ſcandall</hi> to the <hi>Church of God</hi> amongſt us. That blow, that <hi>ſtruck</hi> off our <hi>Princes head,</hi> did even <hi>ſtrik<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 
+                        <gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ut</hi> our <hi>religi<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>n's breath;</hi> when our <hi>King</hi> loſt his <hi>life,</hi> our <hi>religion</hi> loſt her <hi>Glory</hi> too. The <hi>depoſing, aſſaſſinati<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>n, murder</hi> of Kings is a doctrine which we <hi>condemne</hi> but <hi>practiſe;</hi> 'tis a doctrine that <hi>Proteſtants fa<g ref="char:EOLhyphen"/>ther</hi> upon <hi>Rome,</hi> but now have <hi>found</hi> in <hi>England.</hi> The <hi>Primitive</hi> Chriſtians never owned it, <hi>Rogamus, Auguſte, non pugnamus,</hi> that is their language, O <hi>Auguſtus,</hi> we do not <hi>fight</hi> with <hi>ſwords,</hi> but <hi>beg</hi> with <hi>teares;</hi> and why ſo? ſurely, not for want of <hi>pow<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>r,</hi> but for <hi>want</hi> of <hi>will,</hi> ſo <hi>Tertullian, Vis nobis non deeſt vel numerorum, vel nummorum,</hi> we want neither <hi>money</hi> nor <hi>men,</hi> we <hi>might</hi> rebell, but out of <hi>conſcience dare</hi> not. Had our Gracious <hi>Soverai<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>n</hi> been a reall <hi>Tyrant</hi> indeed, yet he was a <hi>Proteſtant</hi> ſtill; we ſhould have ſpared him, if not upon his <hi>own,</hi> yet upon <hi>Gods</hi> account; for doubtleſſe, it had been more <hi>honourable</hi> to our <hi>Religion,</hi> for <hi>us</hi> to have ſuffered under <hi>him,</hi> then for <hi>him</hi> to ſuffer under <hi>us.</hi>
+                  </p>
+                  <p n="4">4. 'Twas an act, that brought a further <hi>Guilt</hi> of <hi>Bl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ud</hi> upon the Nation: alas! there had been <hi>too much</hi> bloud ſpilt on Engliſh ground already; <hi>Subjects</hi> had loſt <hi>their</hi> bloud, the <hi>Kings</hi> might well have been ſpared; wee had opened <hi>veines</hi> enough, That <hi>V<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>na Baſilica</hi> might have been let alone: ſurely, the <hi>guilt</hi> of <hi>bloud</hi> is <hi>guilt</hi> in <hi>Graine;</hi> 'tis no eaſie thing to waſh it off: <hi>Deliver mee from bloud<g ref="char:EOLhyphen"/>guiltin<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſſe, O God,</hi> ſaith <hi>David:</hi> David was guilty of <hi>Adult<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ry,</hi> as <note place="margin">
+                        <hi>Pſal.</hi> 51. 14.</note> well as <hi>Murder;</hi> yea but 'tis this <hi>Murder,</hi> this <hi>Bloud,</hi> which hee had ſhed, that <hi>dogs</hi> him, and <hi>ſticks</hi> upon his conſcience: well, and whoſe bloud was it? why, the bloud of <hi>
+                        <g ref="char:V">Ʋ</g>riah,</hi> the bloud of a <hi>Sub<g ref="char:EOLhyphen"/>ject:</hi> now, if the bloud of <hi>
+                        <g ref="char:V">Ʋ</g>riah</hi> did ſo torment <hi>King</hi> David, O how would the bloud of <hi>David</hi> have tormented ſome poor <hi>
+                        <g ref="char:V">Ʋ</g>riah?</hi> if <hi>comm<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>n</hi> bloud be pretious, how pretious is bloud <hi>Royall?</hi> ſurely, <hi>England</hi> can give but a <hi>ſad</hi> account for the <hi>bloud</hi> of <hi>Martyrs</hi> in former ages, for the <hi>bloud</hi> of <hi>Saints</hi> in latter times, and how then ſhall we account for the <hi>bloud</hi> of the <hi>Lord's Anointed?</hi> but O that every <hi>eye,</hi> that <hi>ſaw</hi> this horrid act, could <hi>bleed!</hi> that every <hi>eare,</hi> that <hi>heareth</hi> it, could tingle! that every <hi>heart,</hi> that doth but <hi>thinke</hi> of it, could <hi>mourne</hi> before the Lord! But</p>
+                  <p n="2">
+                     <pb n="15" facs="tcp:94467:11"/>
+2. Be exhorted to give <hi>reſpect, reverence,</hi> and <hi>honour</hi> to our So<g ref="char:EOLhyphen"/>veraigne <hi>Lord</hi> the <hi>King:</hi> and that upon a threefold account.</p>
+                  <p n="1">1. Conſider, 'tis that wee <hi>owe</hi> Him, <hi>Suum cuique tribuere,</hi> To give <hi>every</hi> man his <hi>owne,</hi> is but <hi>common</hi> juſtice, <hi>Render to Cae<g ref="char:EOLhyphen"/>ſar</hi> 
+                     <note place="margin">
+                        <hi>Mar.</hi> 12. 17.</note> 
+                     <hi>the things that be Caeſars:</hi> You will ſay, <hi>what</hi> are <hi>Caeſars</hi> things? Surely, if the <hi>Apoſtle</hi> be a competent Judge, <hi>Honour</hi> is one: <hi>Render Honour to whom Honour is due:</hi> well, and <hi>whoſe</hi> due is it? <note place="margin">
+                        <hi>Rom.</hi> 13 7. <hi>Pet.</hi> 2. 17.</note> 
+                     <hi>Honour the King:</hi> Honour is the <hi>Kings</hi> due, and the <hi>Subjects</hi> debt. We can make ſome conſcience of <hi>other</hi> debts, why then not of <hi>this? Money</hi> wee pay where <hi>Money</hi> is <hi>due; Rent</hi> wee pay where <hi>Rent</hi> is <hi>due:</hi> why then ſhould wee not pay <hi>Honour</hi> where <hi>Honour</hi> is <hi>due?</hi> Sure I am, if wee owe <hi>any</hi> debt in the world, <hi>this</hi> is one: 'tis a debt which wee have <hi>promiſed</hi> to pay; nay more, wee have entred into <hi>bond</hi> to pay it: tell mee, are ſacred<g ref="char:punc">▪</g> 
+                     <hi>Covenants</hi> bonds or no? are ſacred <hi>Oaths</hi> obligations or no? if theſe things be obliging, is not <hi>England</hi> bound to pay this debt of Honour? Wee ſtood bound to pay this debt to our <hi>former</hi> Prince, and doubtleſſe, what wee left <hi>unpaid</hi> to the <hi>Father,</hi> wee are concerned in <hi>juſtice</hi> to pay to the <hi>Son</hi> and <hi>Heir:</hi> if wee formerly <hi>miſſed</hi> our <hi>day,</hi> and for <hi>want</hi> of <hi>pay<g ref="char:EOLhyphen"/>ment forfeited</hi> our <hi>bonds,</hi> we are now concerned to pay both <hi>Prin<g ref="char:EOLhyphen"/>cipall</hi> and <hi>intereſt.</hi>
+                  </p>
+                  <p n="2">2. Conſider, our <hi>Soveraigne Lord</hi> the King is a <hi>fit object</hi> of Ho<g ref="char:EOLhyphen"/>nour, I mean not onely as a <hi>Prince,</hi> but as a <hi>Saint;</hi> not onely as a <hi>King,</hi> but as a <hi>Chriſtian;</hi> not only as a <hi>Chriſtian,</hi> but as a <hi>Proteſtant:</hi> 'tis ſaid of all hands, and believed, that a perſon he is of <hi>Choyce</hi> en<g ref="char:EOLhyphen"/>dowments; that God, who <hi>now</hi> hath made him <hi>Great,</hi> wee truſt, <hi>long ſince</hi> hath made him <hi>Good;</hi> God hath given him, as a <hi>Crown,</hi> ſo an <hi>Head fit</hi> to <hi>wear</hi> it; as a <hi>Scepter,</hi> ſo an <hi>Hand fit</hi> to <hi>manage</hi> it; Heaven crownes His <hi>Head</hi> with <hi>Gold,</hi> but his <hi>Heart</hi> with <hi>Grace:</hi> His <hi>Honour,</hi> His <hi>Life,</hi> His <hi>Soule</hi> ſeems <hi>dear</hi> to God; 'tis little leſſe then a <hi>miracle,</hi> that in <hi>England,</hi> I mean, at <hi>Worceſter,</hi> God preſerved His <hi>Life:</hi> 'tis little leſſe then a <hi>miracle,</hi> that in <hi>France</hi> and <hi>Spain</hi> God preſerved his <hi>Religion:</hi> you will ſay, our <hi>Prince</hi> in <hi>England</hi> could not want for <hi>dangers,</hi> who aimed at ſo much as <hi>Hee?</hi> again, our <hi>Prince</hi> in <hi>France</hi> and <hi>Spain</hi> could not want for <hi>temptati<g ref="char:EOLhyphen"/>ons</hi> to <hi>Popery:</hi> O no, Hee had <hi>enough</hi> and <hi>ſtrong</hi> ones too: now may we not ſay in truth, the preſervation of his <hi>life,</hi> in the midſt
+<pb n="16" facs="tcp:94467:12"/>
+of ſo <hi>great dangers,</hi> argueth a <hi>ſtrange providence</hi> of God <hi>about</hi> Him? but, the preſervation of his <hi>Faith,</hi> in the midſt of <hi>ſuch temptations,</hi> argueth the <hi>ſpeciall Grace</hi> of God <hi>within</hi> Him? Tell mee, doth Hee not ſeem <hi>ſettled</hi> in the <hi>Proteſtant</hi> religion, that could not bee <hi>ſhaken</hi> either by the <hi>temptations</hi> of <hi>Papiſts</hi> abroad, or the <hi>diſcouragements</hi> of <hi>Proteſtants</hi> at home? Had our <hi>King</hi> turned <hi>Papiſt,</hi> 'tis probable, that the <hi>Pope</hi> had brought him in through a <hi>S<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>a</hi> of <hi>Bloud.</hi> but through mercy, our Prince continueth a <hi>Proteſtant</hi> ſtill, and as a <hi>reward</hi> of his <hi>Faith</hi> and <hi>Conſtancy, God</hi> brings him in, <hi>in peace;</hi> Now, can wee <hi>doubt</hi> our Princes Religion ſtill? Surely, if the <hi>regaining</hi> of <hi>three Kingdomes</hi> could not remove him, there is <hi>nothing</hi> elſe that can: nay more, if the <hi>ſtrongeſt</hi> temptations could not <hi>ſhak</hi> his faith; doubtleſſe they have <hi>confirmed</hi> it: if <hi>ſtorms</hi> and <hi>tempeſts</hi> cannot <hi>blow d<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>wn</hi> nor <hi>break</hi> the tree, they are wont to <hi>root</hi> it <hi>faſter.</hi> Con<g ref="char:EOLhyphen"/>ſider our Prince as a <hi>King,</hi> as a <hi>Chriſtian,</hi> as the great <hi>Confeſſour</hi> of the <hi>Prot ſtant</hi> Faith, you will find him every way an <hi>Object fit</hi> for <hi>Honour.</hi>
+                  </p>
+                  <p n="3">3. <hi>God</hi> himſelfe ſeemeth in an high degree to <hi>advance</hi> our Gra<g ref="char:EOLhyphen"/>cious Princes <hi>Honour.</hi> Surely, where <hi>God</hi> honours, there <hi>man</hi> muſt honour too: it is our <hi>Soveraign<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s</hi> preſent caſe; that God, who <hi>re<g ref="char:EOLhyphen"/>quires</hi> an honour <hi>for</hi> him in his <hi>Precepts,</hi> doth now ſeem to <hi>caſt</hi> much honour <hi>upon</hi> him, in his <hi>Providence.</hi> Do you aske mee, how? I anſwer,</p>
+                  <p n="1">1. God hath now <hi>wonderfully wiped</hi> off that <hi>reproach,</hi> which ſome unadviſed perſons had <hi>caſt</hi> upon His Royall <hi>Name</hi> and <hi>Fami<g ref="char:EOLhyphen"/>ly.</hi> It was ſaid by ſome, doubtleſſe, God <hi>diſowned</hi> His <hi>Maj<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſtie's Perſon:</hi> Surely, God had laid aſide his <hi>Maj<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſties Family:</hi> and why ſo? Why, his <hi>Armies</hi> were ſtill <hi>beaten,</hi> his <hi>deſignes</hi> prevented, his <hi>Friends</hi> worſted and undone, his <hi>cauſe</hi> overthrowne, <hi>himſelfe</hi> ba<g ref="char:EOLhyphen"/>niſhed from Nation to Nation: nay ſome obſerved, that <hi>wh<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>re <gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>re</hi> he went, the <hi>judgments</hi> of God <hi>followed</hi> him cloſe at heels: nay, it was made an obſervation in <hi>Print,</hi> that the <hi>King</hi> of <hi>Spain</hi> never <hi>proſpered,</hi> after he had once been <hi>civill</hi> to the <hi>King</hi> of <hi>England.</hi>
+                  </p>
+                  <p>But conſider, are not poor <hi>wormes</hi> ſomewhat <hi>bold,</hi> that dare ad<g ref="char:EOLhyphen"/>venture <hi>thus dogmatically</hi> to <hi>interpret</hi> the myſterious providences of God? Surely, the particular diſpenſations of Providence are <hi>Texts</hi> ſo <hi>hard,</hi> that ſcarce one of a thouſand can certainly tell
+<pb n="17" facs="tcp:94467:12"/>
+what <hi>comment</hi> to put upon them: Particular Providences are not <hi>plain rules,</hi> but <hi>obſcure riddles:</hi> 'Tis more ſafe to <hi>adore</hi> the <hi>wiſdome,</hi> then <hi>interpret</hi> the <hi>will</hi> of the great God in his various acts of Pro<g ref="char:EOLhyphen"/>vidence. Yet notwithſtanding, it hath been ſtrongly aſſerted by ſome, &amp; believed by others, that God had utterly <hi>caſt off</hi> the <hi>King</hi> of <hi>England,</hi> and the <hi>Royall Family,</hi> and that upon this account, God ſuffered them to be ſtill overthrowne, and at length <hi>baniſht,</hi> and <hi>driven</hi> away. I anſwer.</p>
+                  <p n="1">1. In <hi>Generall,</hi> the <hi>defeats</hi> of Armies, <hi>overthrows, baniſhment,</hi> are all but <hi>outward croſſes;</hi> and ſo no argument that God <hi>diſowneth</hi> any perſon whatſoever. <hi>No man knowes love or hatred by all that is be<g ref="char:EOLhyphen"/>fore him.</hi> Outward <hi>mercies</hi> do not alwayes argue <hi>love;</hi> nor do <hi>af<g ref="char:EOLhyphen"/>flictions</hi> 
+                     <note place="margin">
+                        <hi>Ecc.</hi> 9. 1.</note> alway argue <hi>wrath.</hi> God may ſeverely <hi>puniſh,</hi> when yet he hath no intent to <hi>deſtroy:</hi> God may <hi>thunder</hi> aloud over that mans head, whom yet he doth not mean to <hi>ſtrike dead</hi> in the place, God's <hi>Iudgements</hi> are not alway <hi>ſwords</hi> to <hi>kill,</hi> but <hi>rods</hi> to <hi>correct,</hi> and that in <hi>mercy</hi> too. <hi>Ipſa Dei indignatio non aliunde eſt, quàm de miſericordiâ,</hi> Saith <hi>Bernard:</hi> God would not ſometimes look as if he were <hi>angry</hi> did not his very <hi>mercy</hi> move him: There is ſome<g ref="char:EOLhyphen"/>times as much love in a <hi>frown,</hi> as in a <hi>ſmile</hi> from Heaven; there may be as much friendſhip in God's <hi>harder blowes,</hi> as there is in his <hi>gentler ſtrokes:</hi> Surely, the <hi>viper</hi> upon <hi>Pauls</hi> hand did not argue him to be a <hi>Murderer:</hi> No more doth God's <hi>laſh</hi> upon any man's <hi>back</hi> argue that man to be a <hi>caſt away.</hi> And as it is with <hi>perſons,</hi> ſo it is with <hi>cauſes</hi> too; want of preſent <hi>ſucceſſe</hi> is no convincing argu<g ref="char:EOLhyphen"/>ment that God <hi>diſowneth</hi> a cauſe: <hi>Iſrael</hi> flieth before <hi>Ai,</hi> and yet the cauſe was <hi>Gods.</hi> The <hi>Turks</hi> have prevailed often againſt poor <hi>Chriſtians,</hi> and yet their cauſe is the <hi>Devils.</hi> No man can truly judge of cauſes barely by their <hi>ſucceſſe</hi> or <hi>miſcarriage.</hi> There are ſeverall reaſons, why God may ſuffer the better cauſe for ſome<g ref="char:EOLhyphen"/>time to be worſted, as</p>
+                  <p n="1">1. God, it may be, doth not like the inſtruments; the <hi>work</hi> is <hi>good,</hi> but the <hi>tools</hi> are <hi>naught;</hi> the work ſhall lie, 'till God provide ſome better inſtruments to effect it. Or</p>
+                  <p n="2">2. God's <hi>time</hi> poſſibly is not yet come. The <hi>cauſe</hi> indeed at preſent is Gods, yea but the preſent <hi>time</hi> is not his. It was God's purpoſe, that <hi>Iericho</hi> ſhould be taken, yet not till the <hi>ſeventh</hi>
+                     <pb n="18" facs="tcp:94467:13"/>
+day be come: It is Gods purpoſe, that ſuch and ſuch a <hi>cauſe</hi> ſhall proſper, yea but it ſhall not proſper <hi>yet.</hi> The <hi>Iewes</hi> have a pro<g ref="char:EOLhyphen"/>verb, <hi>
+                        <g ref="char:V">Ʋ</g>vas n<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> comede ante tempus,</hi> eat not Grapes before their ſea<g ref="char:EOLhyphen"/>ſon. Indeed, Grapes will appear to be ſweet and <gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>uſcious, yet not before the time of Grapes is come. It ſhall appear that God ow<g ref="char:EOLhyphen"/>neth ſuch and ſuch a cauſe, as holy and righteous, but not till the appointed time be come. It's true, Iſrael muſt come out of bon<g ref="char:EOLhyphen"/>dage, but Iſrael muſt not come out <hi>yet;</hi> now ſhall we ſay, that <hi>Iſrael</hi> was ever the leſſe the <hi>Iſrael</hi> of <hi>God,</hi> becauſe ſo long in <hi>Egypt?</hi>
+                  </p>
+                  <p n="2">2. In particular; the baniſhment of a <hi>King</hi> from his Throne is no ſure argument, that God diſowneth him. Indeed, it may argue ſome <hi>preſent diſpleaſure,</hi> but not an <hi>implacable anger,</hi> to be in God. If God <hi>baniſh</hi> a Prince, it is a likely ſigne that God intends to <hi>ſcourge</hi> him at preſent, but tis no ſure ſigne, that God intends to <hi>caſt him off.</hi> I read of perſons <hi>dear</hi> to God, and yet for a while <hi>baniſht</hi> too, <hi>Get thee out of thy country,</hi> Abraham the <hi>friend</hi> of God, <note place="margin">
+                        <hi>Gen.</hi> 12. 1.</note> and yet commanded from his country. <hi>Flee into Aegypt,</hi> Chriſt Jeſus the <hi>ſon</hi> of God, and yet ſcarce ſooner <hi>born</hi> then <hi>ba<g ref="char:EOLhyphen"/>niſht.</hi> 
+                     <note place="margin">
+                        <hi>Mat.</hi> 2. 13.</note> 
+                     <hi>David</hi> was, not only a <hi>man,</hi> but a <hi>King</hi> after Gods own heart, and yet this David is forced to <hi>fly;</hi> you'll ſay, why ſo? ſurely when God turn'd David out of his <hi>Kingdome,</hi> he did not turne him out of his <hi>favour</hi> too; when David had loſt the <hi>hearts</hi> of his <hi>Subiects,</hi> he had not loſt the <hi>heart</hi> of his <hi>God</hi> too; O no, there are other reaſons why God is pleaſed ſometimes to ſuffer his Davids, the <hi>choiceſt</hi> of Kings and Princes to be baniſht from their Courts and Kingdomes: ſee why in 3 particulars.</p>
+                  <p n="1">1. God doth this to <hi>correct</hi> them for <hi>ſin.</hi> This was David's caſe, David had <hi>highly ſinned;</hi> upon that account, David is <hi>thus</hi> ſe<g ref="char:EOLhyphen"/>verely <hi>puniſhed.</hi> David enters upon <hi>
+                        <g ref="char:V">Ʋ</g>riahs bed,</hi> there's his <hi>ſin;</hi> well, Abſalom muſt enter upon <hi>David's throne,</hi> there's his <hi>puniſh<g ref="char:EOLhyphen"/>ment.</hi> At David's command, <hi>
+                        <g ref="char:V">Ʋ</g>riah</hi> muſt <hi>loſe</hi> his <hi>bloud</hi> at God's command, <hi>David</hi> muſt <hi>loſe</hi> his <hi>crown,</hi> yet ſtill God doth this in <hi>mer<g ref="char:EOLhyphen"/>cy;</hi> he <hi>corrects</hi> indeed, but doth not <hi>reiect;</hi> David is <hi>baniſhed,</hi> but yet <hi>reſtored.</hi>
+                  </p>
+                  <p n="2">2. God doth this to puniſh the <hi>ſins</hi> of <hi>ſubiects.</hi> Indeed 'tis ſaid, <hi>I gave them a King in my wrath:</hi> but ſurely, God doth not <note place="margin">
+                        <hi>Hoſ.</hi> 13. 11.</note>
+                     <pb n="19" facs="tcp:94467:13"/>
+alway <hi>give,</hi> but ſometimes <hi>takes away</hi> Kings in his wrath. Kings, if <hi>evill,</hi> are ſore <hi>judgments,</hi> Princes if <hi>good,</hi> are ſignall <hi>mercies.</hi> Tis an argument of wrath, when God is pleaſed, either to <hi>ſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nd</hi> the one, or <hi>remove</hi> the othen. Tis as great a <hi>judgment</hi> to have a <hi>David baniſht,</hi> as to have a <hi>Saul ſitting</hi> upon the throne.</p>
+                  <p n="3">3. God doth this in <hi>mercy</hi> to his baniſht ones; the baniſhment of a Prince may look like a <hi>loſſe,</hi> and yet may prove his ſignall <hi>ad<g ref="char:EOLhyphen"/>vantage;</hi> ſee why in 2 particulars.</p>
+                  <p n="1">1. The baniſhment of a Prince doth ſometimes tend to <hi>ſecure</hi> his perſon. David is baniſht into the <hi>wilderneſſe,</hi> and why ſo? alas! there was no <hi>fafety</hi> for him at <hi>Ieruſalem:</hi> when David could not be ſafe among <hi>men,</hi> God ſecures him even among <hi>beaſts;</hi> tis more then probable, that David had loſt his <hi>life,</hi> had he not left his <hi>Throne.</hi> And hath it not been thus with <hi>our</hi> David too? Had not our Gracious <hi>Soveraigne</hi> been <hi>
+                        <gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ut</hi> of <hi>England,</hi> doubtleſſe he had long ſince been <hi>our</hi> of the <hi>world;</hi> had not he <hi>left</hi> his <hi>crown,</hi> ſurely he had <hi>loſt</hi> his <hi>head;</hi> when God was pleaſed to <hi>baniſh</hi> his <hi>perſon,</hi> he did then but <hi>ſecure</hi> his <hi>life;</hi> the place of his <hi>exile</hi> was the place of his <hi>ſafety</hi> too; God indeed commanded him into <hi>Egypt,</hi> yea but he kept him there, only till <hi>Herod</hi> was dead.</p>
+                  <p n="2">2. The baniſhment of Princes makes them more <hi>fit</hi> to <hi>govern.</hi> You'l ſay, it is good for men to be <hi>fit</hi> for their own employment: things, though <hi>good,</hi> yet if not <hi>fit,</hi> do ſcarce content us<g ref="char:punc">▪</g> robes of <hi>ſcarlet,</hi> if not rightly <hi>proportioned,</hi> do rather <hi>trouble</hi> then <hi>adorne;</hi> a <hi>ſtraight</hi> ſhoe, though made of <hi>Gold,</hi> doth rather <hi>pinch</hi> the foot, then <hi>grace</hi> it; ſurely, the <hi>crownes</hi> of Princes are mercies <hi>only then<g ref="char:punc">▪</g>
+                     </hi> when God <hi>ſits</hi> their <hi>head</hi> to wear them. Government is not an <hi>honour,</hi> but a <hi>burden,</hi> that is too <hi>heavy,</hi> except the <hi>ſhoulder</hi> be firſt <hi>prepar'd</hi> to bear it; well, and <hi>what</hi> is it that fits a Prince to rule<g ref="char:punc">▪</g> ſurely, nothing better then <hi>affliction,</hi> and no affliction better then <hi>baniſhment<g ref="char:punc">▪</g> Tooles</hi> are not fit for their worke, till they have been put in the <hi>fire;</hi> the <hi>axe</hi> is not fit to cut, till it hath been upon the <hi>Grind-ſton<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>:</hi> a Prince is then moſt fit to <hi>rule,</hi> when he hath firſt learnt what it meanes to <hi>ſuffer. It is good for me, that I have been afflicted:</hi> good for David a <hi>Saint,</hi> good for David a <hi>King;</hi> you'l <note place="margin">
+                        <hi>Pſ.</hi> 11<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 71.</note> ſay, why ſo? I anſwer,</p>
+                  <p n="1">1. Baniſht Princes, when once reſtored, will likely prove <hi>re<g ref="char:EOLhyphen"/>ligious</hi>
+                     <pb n="20" facs="tcp:94467:14"/>
+Princes: the more religious our Princes are, the more fit they are to rule; if we diſcerne <hi>Grace</hi> in the Princes <hi>heart,</hi> we need not fear the <hi>power</hi> that is in his <hi>hand.</hi> Bleſſed will be the govern<g ref="char:EOLhyphen"/>ment of that nation, where God ruleth not only <hi>over,</hi> but <hi>in</hi> the <hi>King.</hi> Well, but what Princes more likely to be religious then <hi>Baniſht</hi> ones? No King more <hi>afflicted,</hi> no King more <hi>holy,</hi> then <hi>Da<g ref="char:EOLhyphen"/>vid. Manaſſeh,</hi> when <hi>baniſht</hi> into <hi>Babylon,</hi> went a notorious <hi>ſin<g ref="char:EOLhyphen"/>ner,</hi> but <hi>Manaſſeh,</hi> when reſtored to <hi>Ieruſalem,</hi> return'd a <hi>Saint.</hi> No <hi>School</hi> for <hi>young</hi> Princes like <hi>affliction, it is good for a man to bear the yoke in his youth;</hi> ſurely, if it be good for a <hi>man,</hi> it is much more good for a <hi>Prince;</hi> Kings, that have greater <hi>temptations</hi> to <note place="margin">
+                        <hi>Lam.</hi> 3. 27.</note> ſin, do the <hi>more</hi> need <hi>Antidotes</hi> againſt it. And ſurely, no <hi>Antidote</hi> like <hi>Affliction,</hi> it <hi>expels</hi> the poyſon already <hi>drunke,</hi> and <hi>prevents</hi> the <hi>future</hi> draught. It is not only the <hi>holineſſe,</hi> but will be the <hi>prudence</hi> of Kings to baniſh thoſe ſins from their <hi>Courts,</hi> which have already baniſht them from their <hi>Kingdomes;</hi> we truſt, tis thus with our <hi>Gracious Prince</hi> this day: God hath thrown his crowne into the <hi>fire,</hi> not to be <hi>conſumed,</hi> but <hi>puriſied;</hi> to <hi>refine</hi> the <hi>Gold,</hi> and <hi>purge</hi> away the <hi>droſſe;</hi> God hath ſhewed him Davids <hi>troubles,</hi> that he might give him David's <hi>heart,</hi> and David's <hi>mercies.</hi>
+                  </p>
+                  <p n="2">2. Baniſht Princes, when once reſtored, will likely prove <hi>righteous</hi> Princes. Surely, it is hard for <hi>Princes</hi> to keep exactly within the bounds of juſtice, tis naturall for <hi>mountain<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s</hi> to <hi>cruſh,</hi> for <hi>milſtones</hi> to <hi>grind</hi> to powder. When <hi>power</hi> is exerciſed with<g ref="char:EOLhyphen"/>out <hi>controll,</hi> it is too apt to degenerate into <hi>oppreſſion.</hi> He, that meets with no interruption in his Government, is a rare man, if<g ref="char:punc">▪</g> being a <hi>King,</hi> he proves not, in ſome degree, a <hi>Tyrant</hi> too. David, one of the <hi>beſt</hi> of princes, becommeth an <hi>oppreſſour,</hi> as well as <hi>Ahab,</hi> one of the <hi>worſt.</hi> Well, God, for David's <hi>injuſtice,</hi> driveth<g ref="char:punc">▪</g> him from his throne, and what then? why, David, who, <hi>before</hi> his ba<g ref="char:EOLhyphen"/>niſhment, durſt <hi>murder</hi> an <hi>innocent <g ref="char:V">Ʋ</g>riah,</hi> at his returne, refuſeth to <hi>execute</hi> a <hi>blaſpheming Shimei, Diſcite juſtitiam moni<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>i.</hi> If a Prince once <hi>loſe</hi> his power, upon a recovery, his <hi>intereſt</hi> as well as his <hi>conſcience</hi> bids him take heed <hi>how</hi> he uſe it. A King, once baniſht, ſeeth by ſad experience, that there is a <hi>King</hi> of <hi>Kings</hi> above him. It is true, God <hi>ſets</hi> the crown upon the Princes head, but he doth not <hi>naile</hi> it there: Crownes are not on ſo <hi>faſt,</hi> but God for ſin can
+<pb n="21" facs="tcp:94467:14"/>
+                     <hi>take</hi> them <hi>off</hi> at pleaſure; now, if God ſhall <hi>wreſt</hi> the ſword <hi>cut</hi> of a Princes hand, and yet <hi>reſtore</hi> it back; me thinkes ſuch a Prince will hardly draw the ſword to <hi>kill,</hi> where it ſhould but <hi>defend;</hi> O no, <hi>The Kings throne ſhall be eſtabliſhed in righteouſneſſe:</hi> we truſt, that's <note place="margin">
+                        <hi>Prov.</hi> 25. 18.</note> our caſe this day we truſt, that God, who at length reſtored our baniſht Soveraigne, doth now intend to eſtabliſh his throne in righteouſneſſe for ever.</p>
+                  <p n="3">3. Baniſht Princes, when once reſtored, will likely prove <hi>mer<g ref="char:EOLhyphen"/>cifull</hi> Princes. Mercy is one of the <hi>choiceſt Iewels</hi> in a Princes <hi>crown;</hi> No prince like him, that hath <hi>power</hi> in his <hi>hand,</hi> and <hi>pity</hi> in his <hi>heart.</hi> Tis ſaid of <hi>Caeſar, Dando, ſublevando, ignoſcendo, gloriam a<g ref="char:EOLhyphen"/>deptus eſt,</hi> Caeſar got his glory by <hi>giving</hi> rewards, by <hi>for giving</hi> in<g ref="char:EOLhyphen"/>juries. The Princes <hi>power</hi> makes us <hi>fear</hi> him, but his <hi>compaſſion</hi> makes us <hi>love</hi> him. Now, the more a man's <hi>ſufferings</hi> are, uſually the more is his <hi>mercy</hi> too; <hi>who</hi> pitieth the <hi>hungry</hi> more, then he that hath been ready to <hi>ſtarve</hi> himſelfe? Tis ſaid, <hi>the Kings of Iſrael are merci<g ref="char:EOLhyphen"/>full kings,</hi> and how ſo? alas, their <hi>afflictions</hi> were ſore ones, <hi>Non</hi> 
+                     <note place="margin">1 <hi>Reg.</hi> 20. 31.</note> 
+                     <hi>ignara mali miſeris ſuccurrere diſco,</hi> it is naturall for men to <hi>pity</hi> that in others, which they have <hi>groaned</hi> under in themſelves. Surely, afflicted <hi>Princes</hi> cannot but pity afflicted <hi>ſubjects;</hi> if the <hi>head</hi> have <hi>aked</hi> it ſelfe, it will find an <hi>eye</hi> to weep, for the aking of <hi>every</hi> mem<g ref="char:EOLhyphen"/>ber. David returneth from his baniſhment; his life, and his crown were ſaved; well, what followeth? why, here's his <hi>mercy,</hi> if David hath ſcaped, <hi>Sh<gap reason="illegible: faint" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>mei ſhall not die:</hi> well, is not this our caſe this day? We have a Prince of <hi>affliction,</hi> and we hope, a Prince of <hi>Mercy</hi> too; <note place="margin">2 <hi>Sam.</hi> 19. 23.</note> that God, who now puts a <hi>Scepter</hi> into his <hi>hand,</hi> hath laid the <hi>rod</hi> upon his <hi>back,</hi> and why ſo? why ſurely, as God now puts the <hi>ſword</hi> into his <hi>hand</hi> to execute <hi>juſtice,</hi> ſo he hath laid the <hi>rod</hi> upon his <hi>back</hi> to teach him <hi>mercy;</hi> God will not enable him with <hi>power</hi> to <hi>puniſh,</hi> till he firſt teacheth him <hi>pity</hi> to <hi>ſpare;</hi> ſure I am, it is a King of <hi>Mercy,</hi> that England <hi>needs;</hi> and we truſt, it is a King of <hi>mercy;</hi> that England doth now <hi>enjoy;</hi> doubtleſſe, it is an Argument of mercy, that a Prince, ſo highly <hi>iniured,</hi> ſhould ſo freely offer a <hi>Pardon,</hi> even before the Offendours <hi>aske</hi> it, we taſt of his <hi>Goodneſſe,</hi> before we ſee his <hi>Perſon:</hi> our King Proclaimeth his <hi>Mercy,</hi> before we Proclaime his <hi>Soveraignty;</hi> our Prince <hi>confirmes</hi> an Act of Ob<g ref="char:EOLhyphen"/>livion, before our Parliament can <hi>prepare</hi> it<g ref="char:punc">▪</g> we are not yet upon
+<pb n="22" facs="tcp:94467:15"/>
+our <hi>knees;</hi> and yet, behold, our Pardon is in our <hi>hands!</hi> 'Tis a Gracious Prince, that pardons even at a <hi>diſtance,</hi> that ſends his mercy <hi>before</hi> him, as if he were more ready to <hi>ſpare</hi> then <hi>rule<g ref="char:punc">▪</g>
+                     </hi> more ready for a <hi>Seat</hi> of <hi>Mercy</hi> them a <hi>Throne</hi> of <hi>Majeſty<g ref="char:punc">▪</g>
+                     </hi> it is not eaſie to ſay, whether is greater, the <hi>King's mercy;</hi> or the <hi>Subjects guilt.</hi>
+                  </p>
+                  <p n="4">4. Baniſht Princes, when once reſtored, will likely prove <hi>Humble</hi> Princes. <hi>Manaſſeh humbled himſelfe greatly</hi> where not in <hi>Ieruſalem,</hi> but in <hi>Babylon;</hi> not in his <hi>Palace,</hi> but in his <hi>priſon.</hi> Tis not eaſy <note place="margin">2 <hi>Chron.</hi> 35. 12.</note> for a King, that ſits upon his <hi>own Throne</hi> to <hi>lie</hi> low at <hi>God's foot<g ref="char:EOLhyphen"/>ſtool;</hi> for <hi>Mountaines</hi> to become as <hi>Vallies!</hi> for men <hi>rich</hi> in <hi>purſe,</hi> to be <hi>poor</hi> in <hi>Spirit!</hi> for a King that weares a <hi>Crown,</hi> not to <hi>lift up</hi> that <hi>head</hi> that weares it! Surely, tis almoſt as eaſie for a King to <hi>part</hi> with a Kingdome, as not to <hi>pride</hi> himſelfe in it: <hi>It not this great Baby<g ref="char:EOLhyphen"/>lon?</hi> 
+                     <note place="margin">
+                        <hi>Dan.</hi> 4. 30.</note> Tis infinite mercy, if the <hi>thoughts</hi> of Princes be not as <hi>high</hi> as their <hi>Condition:</hi> they have need of ſomething to keep them hum<g ref="char:EOLhyphen"/>ble, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, remember that thou art a <hi>Man<g ref="char:punc">▪</g> Philip</hi> a <hi>King,</hi> is yet but <hi>Philip</hi> a <hi>Man;</hi> if Philip the <hi>King</hi> be <hi>proud,</hi> yet let Philip the <hi>man</hi> be <hi>humble. Agathocles,</hi> once a <hi>Potter,</hi> becomes a <hi>King;</hi> upó his cup-board he hath his veſſels of <hi>Silver,</hi> and veſſels of <hi>Earth:</hi> the veſſels of <hi>Silver</hi> ſpeak a <hi>King,</hi> the veſſels of <hi>Earth</hi> ſpeak a <hi>Potter;</hi> his veſſels of Silver mind him, that <hi>Agathocles,</hi> now a <hi>King,</hi> muſt be <hi>noble;</hi> his veſſels of Earth mind him, that <hi>Agathocles,</hi> once a <hi>Potter,</hi> muſt not be <hi>proud.</hi> Doubtleſſe, Kings and Princes need ſome <hi>Memento</hi> or other; the <hi>fineſt</hi> of Metall ſtands moſt in need of ſome <hi>allay</hi> to temper it. God ſeeth fit, that in the <hi>Dia<g ref="char:EOLhyphen"/>dems</hi> of Princes there ſhould be <hi>Thornes</hi> as well as <hi>Iewels;</hi> Thornes to <hi>prick</hi> their veines, as well as Iewels to make them <hi>ſwell;</hi> God ſeeth fit, that in the Crownes of Kings there ſhould be a <hi>weight,</hi> as well as a <hi>Luſtre;</hi> the head muſt <hi>ake</hi> as well as <hi>ſhine.</hi> But now, if <hi>leſſer</hi> afflictions will not Humble, <hi>greater</hi> ſhall; if <hi>rods</hi> will not ſerve, <hi>Sc<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rpions</hi> ſhall, when God will humble a King, if the <hi>croſſe</hi> of his Crown will not do it, the <hi>l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſſe</hi> of it ſhall; that Prince muſt <hi>part</hi> with his <hi>kingdome,</hi> rather then <hi>keep</hi> his <hi>ſin;</hi> and may not this be our caſe this day? God hath dealt ſeverely with our <hi>Gracious Prince,</hi> and why ſo? we truſt, to <hi>make</hi> him <hi>Humble.</hi>
+                  </p>
+                  <p n="5">5 Baniſht Princes, if once reſtored, may likewiſe prove <hi>Great</hi>
+                     <pb n="23" facs="tcp:94467:15"/>
+and <hi>Glorious</hi> Princes: you know, if men build <hi>high,</hi> they lay their foundation <hi>low:</hi> 'tis thus with God; <hi>Ioſeph</hi> muſt be made the <hi>Se<g ref="char:EOLhyphen"/>cond</hi> man in Pharaoh's <hi>Kingdom,</hi> yea but Joſeph muſt firſt ly a <hi>Pri<g ref="char:EOLhyphen"/>ſoner</hi> in the <hi>Gaol: Daniel</hi> muſt be made <hi>Ruler</hi> over all the province of Babylon, yea but Daniel muſt be made a <hi>Captive</hi> firſt; <hi>Chriſt Ieſus</hi> aſcends into the <hi>higheſt heavens,</hi> yea but firſt hee muſt down into the <hi>loweſt hell:</hi> 'Tis ſaid, <hi>Hee, that humbleth himſelfe, ſhall be exalted:</hi> wee may alſo ſay, hee, whom <hi>God humbleth,</hi> ſhall be exal<g ref="char:EOLhyphen"/>ted: <note place="margin">
+                        <hi>Mat.</hi> 23. 12.</note> it is God's uſuall Method, whom he intends to <hi>advance,</hi> he firſt <hi>degrades:</hi> as for <hi>ſinners,</hi> that of the Poet is true<hi>—tolluntur in altum</hi>
+                  </p>
+                  <p>
+                     <hi>
+                        <g ref="char:V">Ʋ</g>t lapſu graviore ruant.—</hi>God <hi>mounts</hi> them upon <hi>high,</hi> that their <hi>fall</hi> may be the greater; but as for <hi>Saints,</hi> God layeth them <hi>low,</hi> that their <hi>riſe</hi> may be the <hi>higher.</hi> Well, and who can tell, but this may be God's deſign this day in England? who knoweth, but God hath kept our Gracious <hi>Soveraigne low,</hi> on purpoſe, to mount him <hi>higher?</hi> It's true, it may be our <hi>Prince,</hi> till now, was not <hi>fit</hi> for his <hi>Throne;</hi> yea and it may be, till now, his <hi>Throne</hi> was not <hi>fit</hi> for him. Some perſons, in their Minority, grow but little<g ref="char:punc">▪</g> yet af<g ref="char:EOLhyphen"/>terwards they ſhoot up apace; our King, in his Minority, hath been at a <hi>ſtand;</hi> but now, who can tell, but God intends to adde <hi>many cubits</hi> to his ſtature? <hi>Diam<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nds,</hi> ſoundly <hi>rub'd,</hi> ſhine the <hi>brighter: Spices,</hi> ſoundly <hi>bruiſed</hi> and pounded, ſmell the <hi>ſweeter:</hi> never doth the <hi>Sun</hi> ſeem more glorious then after an <hi>Eclypſe:</hi> and who can tell, but God hath kept <hi>England</hi>'s <hi>Sun</hi> under <hi>clouds</hi> of obſcurity, that at length his <hi>beames</hi> may breake out with greater <hi>luſtre?</hi> what <hi>Iſrael's David</hi> ſaith of himſelfe, wee truſt, may be ſaid of <hi>Englands David</hi> too: <hi>Great is his glory in thy ſalvation!</hi> The greater his <hi>ſuf<g ref="char:EOLhyphen"/>ferings</hi> were once, the greater his <hi>Honour</hi> now: the <hi>heavier</hi> his <note place="margin">
+                        <hi>Pſ.</hi> 21. <gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</note> 
+                     <hi>croſſe,</hi> the <hi>brighter</hi> his <hi>Crowne.</hi>
+                  </p>
+                  <p n="6">6. Baniſht Princes, when once reſtored, will likely prove <hi>be<g ref="char:EOLhyphen"/>loved</hi> Princes: Never did David ſee more of his peoples <hi>affection,</hi> then at his <hi>returne</hi> from his baniſhment: David was now the more in the <hi>heart</hi> of his Subjects, becauſe he had been out of their <hi>eye.</hi> That of the <hi>Roman Oratour</hi> is uſually true: <hi>carendo magis, quàm fruendo, bona intelligimus:</hi> wee ſee and prize the goodneſſe of things rather in their <hi>want,</hi> then in their <hi>Enjoyment:</hi> never did that <hi>wo<g ref="char:EOLhyphen"/>man</hi> ſo highly rejoyce over her little piece of <hi>Silver,</hi> till it came to
+<pb n="24" facs="tcp:94467:16"/>
+this, <hi>I have ſound the piece, which I had loſt.</hi> Never did that <note place="margin">
+                        <hi>Luk.</hi> 15. 9</note> 
+                     <hi>Father</hi> ſo much rejoyce over his <hi>Prodigall</hi> ſon, as when it came to this: <hi>This my ſon was loſt, and is found</hi> things of any value, if once <note place="margin">
+                        <hi>Luk.</hi> 15. 24.</note> 
+                     <hi>loſt,</hi> are valued <hi>higher,</hi> upon a <hi>recovery;</hi> to <hi>want</hi> their <hi>poſſeſſion</hi> is the beſt way to <hi>raiſe</hi> their <hi>Price.</hi>
+                  </p>
+                  <p>Well, and hath not <hi>God</hi> raiſed the <hi>Price</hi> of Kings this day in <hi>England?</hi> I am perſwaded, our Gracious Prince is not more wel<g ref="char:EOLhyphen"/>come to the <hi>houſe</hi> of the <hi>King,</hi> then to the <hi>hearts</hi> of his <hi>Subjects;</hi> do not ours <hi>ſoules</hi> ſtand as wide <hi>open</hi> to receive him as his <hi>own Gates</hi> poſſibly can do? God hath given him the command, not of our <hi>purſes</hi> onely, but of our <hi>affections</hi> too; tell me, who can, whether <hi>England</hi> hath ſhed more <hi>Teares</hi> of ſorrow for the <hi>loſſe</hi> of the <hi>Fath<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>r,</hi> or <hi>Teares</hi> of <hi>joy</hi> for the <hi>reſtitution</hi> of the <hi>Son?</hi> Sure<g ref="char:EOLhyphen"/>ly, never did any King of England <hi>die</hi> more <hi>lamented</hi> then the <hi>father;</hi> never did any King of England <hi>come in</hi> more <hi>deſired</hi> then the Son; and why ſo? alas! England hath ſorely <hi>wanted</hi> her King! Sometimes <hi>Anarchy</hi> hath been our <hi>Grievance,</hi> and what wonder then, if <hi>Monarchy</hi> prove our <hi>joy?</hi> we have ſometimes groaned under the <hi>Tyranny</hi> of a <hi>Common-wealth,</hi> and what won<g ref="char:EOLhyphen"/>der then, if wee <hi>rejoyce</hi> under the <hi>Government</hi> of a <hi>King?</hi> I am perſwaded, if God had not <hi>removed</hi> our King, wee had <hi>prized</hi> and loved him leſſe, the Advantage is his as wel as ours; what, by his Baniſhment, he hath <hi>l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſt</hi> in his <hi>Revenu<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s;</hi> by his returne, he hath <hi>gain<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>d</hi> in the <hi>affections</hi> of his people. Now, the reſult of all is this; when God baniſheth a King, he may intend him mercy; and conſequently, a Kings baniſhment can be no Argument that God diſowneth him.</p>
+                  <p n="2">2. God hath <hi>remarkably</hi> owned our Gracious King in the diſpen<g ref="char:EOLhyphen"/>ſations of his Providence: indeed, it is no eaſy matter to underſtand the voice of God ſpeaking by his Providence; yet ſo far as man can <hi>rationally</hi> become Gods <hi>interpreter,</hi> this voyce of his Provi<g ref="char:EOLhyphen"/>dence ſeems to whiſper this language, Namely, <hi>that the King of England is a King in favour with God<g ref="char:punc">▪</g>
+                     </hi> ſee how God ſeemes to own him in two Particulars;</p>
+                  <p n="1">1. God ſeems <hi>remarkably</hi> to own our Gracious King in the <hi>pre<g ref="char:EOLhyphen"/>ſervation</hi> of his <hi>lif<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                        <g ref="char:punc">▪</g>
+                     </hi> Surely, when God is pleaſed <hi>wonderfully</hi> to interpoſe for the preſervation of a Perſon, it looks like an an Ar<g ref="char:EOLhyphen"/>gument,
+<pb n="25" facs="tcp:94467:16"/>
+that God hath ſomething more then <hi>Ordinary</hi> to doe <hi>for</hi> and <hi>with</hi> that Man. Now, that this is our Kings caſe, I ſhall evidence by theſe <hi>two</hi> Particulars;</p>
+                  <p n="1">1. God did <hi>Wonderfully</hi> preſerve the <hi>life</hi> of our King in the <hi>day</hi> of battel. But, you will ſay, for a <hi>perſon</hi> to <hi>eſcape</hi> in a battel, is that a <hi>Won<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>er?</hi> I anſwer, our <hi>Kings</hi> eſcape that day was more then <hi>Ordinary;</hi> for</p>
+                  <p n="1">1. The <hi>Army</hi> that <hi>purſue<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> and ſought the King, I mean, at <hi>Worceſter,</hi> was much more <hi>numerous</hi> and ſtronger then his <hi>own.</hi> His own Army, though conſiſting of ſome <hi>thouſands,</hi> yet compared with the Rebels army, looked but as an <hi>hand<g ref="char:EOLhyphen"/>full</hi> of men. Poor Prince! he is encompaſſed round with <hi>men</hi> and <hi>malice,</hi> with <hi>ſtrength</hi> and <hi>hatred,</hi> and yet behold, he ſcapes!</p>
+                  <p n="2">2. Our Kings own army was quite <hi>broken</hi> to pieces, his men generally <hi>routed</hi> and <hi>taken.</hi> Alas! what <hi>humane</hi> helpe had our <hi>King</hi> that day but his Army? under God, his de<g ref="char:EOLhyphen"/>fence lay only in his men about him; but alas! his ſtrength is quickly gone, his Army ſcattered; the King left, as a <hi>lamb</hi> in the midſt of <hi>W<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>lv<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s,</hi> and yet ſecure!</p>
+                  <p n="3">3. Multitudes of men were ſlaine round <hi>about</hi> the King. It is ſaid, many <hi>hundreds</hi> of <hi>ſubjects</hi> fell that day; and yet the <hi>King,</hi> who ventured himſelfe in the battel as well as o<g ref="char:EOLhyphen"/>thers, muſt ſurely <hi>ſcape:</hi> doubtleſſe, God who is the <hi>Lord</hi> of <hi>Hoaſts,</hi> had given the <hi>ſword</hi> a <hi>charge</hi> concerning his Sacred perſon; the <hi>bullets</hi> had no <hi>Commiſſion</hi> to touch <hi>him,</hi> who was the Lords anointed.</p>
+                  <p n="4">4. There were but a <hi>few p<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rſons</hi> of <hi>Quality</hi> eſcaped that day beſides the King. When <hi>others</hi> are <hi>ſlain,</hi> the <hi>King</hi> is <hi>alive:</hi> when <hi>others</hi> are <hi>taken</hi> the <hi>King eſcapes;</hi> God preſerveth his <hi>Perſon</hi> from the <hi>violence</hi> of <hi>men,</hi> his <hi>life</hi> from the <hi>ſtroke</hi> of <hi>Death;</hi> his Majeſty becomes a <hi>Priſoner</hi> neither to a <hi>Gaol</hi> nor to a <hi>grave.</hi>
+                  </p>
+                  <p n="5">5. It was the <hi>Kings perſon</hi> that was <hi>chiefely aymed</hi> at. <hi>Sub<g ref="char:EOLhyphen"/>jects</hi> ſlain and taken were but a <hi>petty booty,</hi> the <hi>great</hi> prey
+<pb n="26" facs="tcp:94467:17"/>
+deſired, was the <hi>King;</hi> to overthrow his <hi>whole</hi> Army, and to miſſe of his <hi>own Perſon,</hi> was not counted <hi>halfe</hi> a victory. His great Enemy aimed at the <hi>Kingdome,</hi> and conſequently, at the <hi>King;</hi> but ſurely, the Kings <hi>Perſonall eſcape</hi> was a great <hi>Allay</hi> to the <hi>overthrow</hi> of his <hi>Army;</hi> it was but a cold con<g ref="char:EOLhyphen"/>queſt to <hi>get</hi> the <hi>day,</hi> and <hi>miſſe</hi> their <hi>prey;</hi> to <hi>win</hi> the <hi>field</hi> and <hi>loſe</hi> the <hi>King,</hi> but however, as the Kings eſcape did <hi>leſſen</hi> the <hi>joy</hi> of his <hi>enemies,</hi> ſo it doth <hi>magnifie</hi> the <hi>mercy</hi> and <hi>providence</hi> of his <hi>God;</hi> tis next to a wonder, that he, <hi>almoſt alone,</hi> ſhould eſcape, who <hi>almoſt alone</hi> was <hi>ſtruck</hi> at; doubtleſſe, had the King that day been a <hi>conquerour,</hi> God had been leſſe ſeen in his <hi>vi<g ref="char:EOLhyphen"/>ctory,</hi> then in his <hi>eſcape;</hi> leſſe ſeen in the <hi>field</hi> then in the <hi>wood;</hi> It was a more wonderfull Providence for God to ſecure him <hi>in</hi> a <hi>defeat,</hi> then to ſave him <hi>by</hi> a <hi>Conqueſt.</hi>
+                  </p>
+                  <p n="2">2. God did wonderfully preſerve the <hi>life</hi> of our King <hi>after</hi> that fatall <hi>day</hi> of battel. Indeed, through mercy, the King <hi>quickly</hi> ſcaped from <hi>Worceſter;</hi> yea, but he could not ſo quickly ſcape from <hi>England;</hi> he had ſcaped the <hi>ſword</hi> of open <hi>enemies,</hi> yea but he might eaſily have fel into the <hi>hand</hi> of trea<g ref="char:EOLhyphen"/>cherous <hi>friends; one man</hi> might have done him that miſchiefe, which an <hi>whole army</hi> could not do: an <hi>army</hi> could not <hi>kil</hi> him, &amp; yet a <hi>ſingle Perſon</hi> might have <hi>betrayed</hi> him. Poor prince! go whether he will, dangers attend him ſtil; but now, here is the Providence of God; he, that ſaved him upon the <hi>Mount,</hi> faved him in the <hi>vally</hi> too; that God, who preſerved him in the <hi>field,</hi> preſerved him in the <hi>city</hi> too; and ſurely, the Pro<g ref="char:EOLhyphen"/>vidence of God was ſeen as much in preſerving the King in the <hi>day</hi> of his <hi>retirement,</hi> as in the <hi>day</hi> of <hi>batt<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ls</hi>
+                  </p>
+                  <p>See why in <hi>four</hi> Particulars,</p>
+                  <p n="1">1. Conſider how hard a thing it is for a <hi>King</hi> to be <hi>con<g ref="char:EOLhyphen"/>cealed.</hi> Alas! Kings and Princes are <hi>Publique Perſons,</hi> more Generally known, eſpecially in a time of <hi>warre,</hi> then other men. 'Tis an eaſy matter for the <hi>low ſhrub</hi> to lie <hi>hid,</hi> but the <hi>tall Oak</hi> will be <hi>viſible;</hi> you may pull off the <hi>l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>aves</hi> of a <hi>Cedar,</hi> yet its own height will diſcover what tree it is; ſo here,
+<pb n="27" facs="tcp:94467:17"/>
+there is that <hi>Grandour,</hi> that <hi>Majeſty</hi> in a Prince, that is apt to betray him, even under a <hi>diſguiſe.</hi> If a <hi>Gentleman</hi> may be known by his <hi>face,</hi> much more may a <hi>Prince</hi> be known by his <hi>Majeſty.</hi>
+                  </p>
+                  <p n="2">2. Conſider how <hi>ſtrict</hi> a <hi>ſearch</hi> was made after the King, when he had eſcaped. It is true, the prey was now got out of <hi>ſight,</hi> yea, but how many <hi>packs</hi> of <hi>bloud-hounds</hi> were immedi<g ref="char:EOLhyphen"/>ately ſent to purſue? there is no ſafety for the King in Eng<g ref="char:EOLhyphen"/>land, but alas, how ſhall he get beyond the Seas? it ſeemes a thing almoſt impoſſible, and why ſo? why ſurely, becauſe there is a <hi>ſearch</hi> in the <hi>City,</hi> a <hi>ſearch</hi> in the <hi>Country;</hi> not a <hi>port<g ref="char:EOLhyphen"/>town</hi> in <hi>England,</hi> but a <hi>trap</hi> is ſet to catch him! tell me then how can that Prince ſcape, for whom it ſeemes as <hi>Impoſſible</hi> to be <hi>ſafe</hi> upon the <hi>land,</hi> as to get to <hi>Sea?</hi> ſurely, our reſolve muſt needs be this, it was <hi>digitus Dei,</hi> the finger of God was in it. But</p>
+                  <p n="3">3. Conſider how <hi>dangerous</hi> it was for any m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n to <hi>entertaine</hi> and <hi>conceale</hi> the King. It is true, to <hi>entertain</hi> the <hi>King</hi> in his <hi>low</hi> eſtate was every man's <hi>duty,</hi> yea but it was every man's <hi>danger</hi> too; to <hi>conceale</hi> the <hi>King</hi> was then an <hi>high act</hi> of <hi>Loy<g ref="char:EOLhyphen"/>alty,</hi> and yet not to <hi>betray</hi> him was proclaimed an <hi>high act</hi> of <hi>Treaſon;</hi> a ſubject could not do his <hi>duty</hi> without the Imputa<g ref="char:EOLhyphen"/>tion of <hi>ſin;</hi> we could not endeavour the <hi>Preſervation</hi> of the King without the <hi>hazard</hi> of running upon our own <hi>ruine;</hi> and yet notwithſtanding all this, Perſons there are of Gods Pro<g ref="char:EOLhyphen"/>viſion, who to <hi>ſave</hi> the <hi>Kings</hi> life, reſolve to <hi>v<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nture</hi> their own, now, here is the Providence of God, God ſaves both <hi>King</hi> and <hi>them;</hi> both are in <hi>danger,</hi> yet both <hi>eſcape.</hi>
+                  </p>
+                  <p n="4">4. Conſider what a <hi>reward</hi> was promiſed to him, who ſhould <hi>Diſcover</hi> the King. Surely, conſiderable <hi>ſummes</hi> of money are ſtrong <hi>temptations,</hi> eſpecially, to perſons, whoſe <hi>ſpirits</hi> are as <hi>baſe,</hi> as their <hi>eſtates</hi> are <hi>low;</hi> Iudas betrayeth the <hi>ſon</hi> of God for <hi>thirty</hi> pieces of Silver, and might not the <hi>bloud</hi> of our Gracious <hi>Soveraigne</hi> have been ſold for a <hi>thouſand pounds?</hi> ſurely, men that would not refuſe to <hi>conceale</hi> him for
+<pb n="28" facs="tcp:94467:18"/>
+                     <hi>fear,</hi> might yet have been tempted to <hi>betray</hi> him for <hi>gaine:</hi> by <hi>undoing</hi> the <hi>King,</hi> a man might have <hi>made himſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>lfe:</hi> and yet behold, the King is ſaved! and if ſo, wonderfull is the Provi<g ref="char:EOLhyphen"/>dence of God in his preſervation, the King ſhall not dye by the <hi>ſword</hi> of <hi>enemies,</hi> nor miſcarry through the <hi>Treachery</hi> of <hi>friends.</hi> But</p>
+                  <p n="2">2. God hath now <hi>wonderfully</hi> owned our King in his <hi>re<g ref="char:EOLhyphen"/>ſtitution.</hi> Surely, that <hi>Argument,</hi> which ſome men lately pleaded <hi>againſt</hi> the King, may now, upon better grounds, be pleaded <hi>for</hi> him. If the <hi>cr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſſe Providences</hi> of God, which <hi>once</hi> befell our King, might be looked upon as ſo many <hi>Frownes</hi> from heaven, why may not the <hi>ſucceſſefull Providences</hi> of God, that <hi>now</hi> attend him, be looked upon as <hi>ſmiles?</hi> it was lately ſaid, ſurely, God <hi>diſowneth</hi> the King, becauſe he is <hi>baniſht,</hi> and why then may it not now be ſaid, ſurely, God <hi>owneth</hi> the King, becauſe he is <hi>restored?</hi> if <hi>former overthrowes</hi> were an Argument o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <hi>wrath,</hi> why then ſhould not <hi>preſent ſucceſſe</hi> be an argument of <hi>love?</hi> and the rather, becauſe the <hi>preſent reſti<g ref="char:EOLhyphen"/>tution</hi> of our King hath in it <hi>much</hi> of <hi>wonder,</hi> whereas his <hi>former defeats</hi> and baniſhment had <hi>none</hi> at all: ſurely, that the <hi>weaker</hi> army (and ſuch was our Kings) ſhould be beaten by the <hi>ſtronger,</hi> that a Prince, driven out of his <hi>ſtrong h<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>lds</hi> by a more <hi>potent</hi> Army then his own, ſhould alſo be driven out of his <hi>Kingdome,</hi> hath <hi>nothing</hi> of <hi>wonder</hi> in it; but now, that a Prince <hi>thus driven</hi> away, ſhould be <hi>thus reſtored,</hi> is <hi>next</hi> to a <hi>miracle;</hi> the reſtitution of our King, as it is a <hi>great</hi> mercy in <hi>it ſelfe,</hi> ſo it is a mercy <hi>wonderfull</hi> in its <hi>Circumſtances.</hi> Conſi<g ref="char:EOLhyphen"/>der it in 3 particulars.</p>
+                  <p n="1">1. The reſtitution of our King was a mercy <hi>long deſired,</hi> and <hi>often attempted,</hi> but ſtill all in <hi>vain.</hi> Surely, the <hi>longing de<g ref="char:EOLhyphen"/>ſires,</hi> the <hi>frequent attempts</hi> of the Nation to bring back the King, ſeeme to argue, that his returne is looked upon as a <hi>choice mercy</hi> indeed, but the <hi>conſtant fruſtration</hi> as well of our <hi>attempts,</hi> as our <hi>deſires,</hi> ſeemes to argue, that the returne of the King was a mercy not eaſily to be <hi>obteined.</hi>
+                  </p>
+                  <p n="2">
+                     <pb n="29" facs="tcp:94467:18"/>
+2. The reſtitution of our King was a mercy at <hi>this time</hi> little expected: our <hi>deſires</hi> for our King were <hi>great,</hi> yet our <hi>hopes</hi> but <hi>little;</hi> the nation had more reaſon to <hi>wiſh,</hi> then to <hi>expect</hi> a King. When we looked upon the <hi>greatneſſe</hi> of the <hi>mercy,</hi> we could not but <hi>beg it;</hi> when we looked upon the <hi>difficulty</hi> of the <hi>mercy,</hi> we could not but <hi>deſpaire it.</hi> Had ſome <hi>Prophet,</hi> a <hi>few</hi> months ſince, foretold us, that by <hi>this day</hi> our King ſhould be upon his Throne, <hi>Caſſandra</hi> like, he had ſpoke <hi>truth</hi> indeed, but <hi>ſuch</hi> a truth, as <hi>few</hi> in England would have <hi>believed.</hi> To have given Credit to <hi>ſuch</hi> a Prediction, would have been judged a <hi>raſh</hi> and <hi>fooliſh Preſumption,</hi> rather then a <hi>Rationall</hi> Act of <hi>faith.</hi> For</p>
+                  <p n="3">3. The reſtitution of our King was a mercy at <hi>this</hi> time more <hi>oppoſed</hi> then ever. You know, the King was formerly oppoſed by the <hi>ſword,</hi> yea but now he muſt be oppoſed by an <hi>Oath;</hi> men, that <hi>formerly</hi> had engaged <hi>but</hi> their <hi>lifes,</hi> muſt <hi>n<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>w</hi> engage their <hi>ſoules</hi> againſt him<g ref="char:punc">▪</g> tis not <hi>now</hi> enough for men to act with an <hi>armed hand,</hi> but they muſt act with an <hi>armed Conſcience</hi> too; that men may forget, that it is <hi>Treaſon</hi> to <hi>exclude</hi> the King, it muſt be made a <hi>ſin,</hi> a <hi>breach</hi> of <hi>Oath,</hi> ſo much as to <hi>own</hi> him. Thus, thus did men fortifie againſt the King their <hi>Intereſt</hi> with <hi>ſtr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ngth,</hi> their <hi>Treaſon</hi> with <hi>Religion.</hi>
+                  </p>
+                  <p>But alas, what <hi>ſtrange</hi> tranſactions are theſe! that men, who deſired to <hi>look</hi> like <hi>Saints,</hi> ſhould <hi>act</hi> like <hi>Devils!</hi> that men, who <hi>once ſware</hi> to <hi>defend</hi> the King, ſhould <hi>now abiure</hi> him! well, is <hi>this</hi> a time to <hi>expect</hi> our King? the <hi>door</hi> ſeems not only <hi>lockt,</hi> but <hi>barred,</hi> and <hi>walled</hi> up againſt him, and <hi>how</hi> then ſhall our King <hi>come</hi> in? why now, behold, here is the <hi>wonder<g ref="char:EOLhyphen"/>full</hi> Providence of God! God opens a <hi>back door</hi> to let in our Soveraigne; an <hi>inconſiderable</hi> number of men from <hi>Scotland</hi> muſt defeat <hi>Englands</hi> victorious <hi>Army,</hi> and that without <hi>one Blow.</hi> Sure, admirable is the mercy and wiſdome of God in this Providence of his; to prevent the <hi>invaſion</hi> of a <hi>forreine</hi> Army, God brings home our King by his <hi>own ſubiects;</hi> to prevent the <hi>effuſion</hi> of <hi>bloud</hi> amongſt <hi>our</hi> ſelves, God brings
+<pb n="30" facs="tcp:94467:19"/>
+home our King in <hi>peace.</hi> May we not ſay, <hi>O Lord, how wonder<g ref="char:EOLhyphen"/>full are thy works in England this day?</hi> that God ſhould bring in his anointed one, when they, that <hi>oppoſed</hi> it, had leaſt cauſe to <hi>f<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ar</hi> it! when they that <hi>deſired</hi> it, had leaſt cauſe to <hi>hope</hi> it! that God ſhould bring him in without the <hi>ſuſpicion</hi> of his <hi>ene<g ref="char:EOLhyphen"/>mies,</hi> without the <hi>expectation</hi> of his <hi>friends!</hi> O ſurely, <hi>it is the Lord's own doing, it is marvellous in our eyes!</hi> Sure I am, if the <hi>Guilt</hi> of high <hi>offendours,</hi> if the intereſt of rich <hi>Purchaſers,</hi> if the <hi>power</hi> of a puiſſant <hi>army,</hi> if the <hi>fear, malice,</hi> and <hi>policy</hi> of a <hi>pret<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nded Parliament</hi> could have <hi>kept</hi> him <hi>out, England</hi> had never <hi>enioyed</hi> him. But, <hi>God ſeeth not as man ſeeth;</hi> God turnes the <hi>army</hi> out of <hi>London,</hi> the <hi>Grandees</hi> themſelves out of the <hi>Parliament</hi> Houſe, and ſo, not a <hi>man</hi> openly oppoſing, to his <hi>own Glory</hi> and <hi>our comfort,</hi> brings home our <hi>King:</hi> we can ſay in the words of the Text, bleſſed be God, <hi>Our Lord the King is come againe in peace to his own houſe.</hi>
+                  </p>
+                  <p>And here I ſhould have put a <hi>Period</hi> to the <hi>tediouſneſſe</hi> of this <hi>Diſcourſe,</hi> and the <hi>trouble</hi> of the <hi>Reader;</hi> only I thought fit yet to adde a few words 1. to his <hi>Maieſtie's friends,</hi> and 2. to his <hi>Maieſty himſelfe.</hi>
+                  </p>
+                  <p n="1">1. To you who <hi>are,</hi> or at leaſt <hi>pretend</hi> to be His Majeſties <hi>beſt Friends,</hi> and moſt <hi>Loyall Subjects,</hi> a word of <hi>advice</hi> in two Particulars,</p>
+                  <p n="1">1. Be adviſed, that you do not <hi>Idolize Inſtruments.</hi> God hath now wrought a <hi>ſignall</hi> deliverance for this Nation of <hi>England</hi> in the reſtitution of <hi>his King</hi> and <hi>ours;</hi> God hath given in this Mercy by <hi>miraculous</hi> wayes and means; Surely, the <hi>worke</hi> is <hi>Gods,</hi> and if ſo, let the <hi>glory</hi> be <hi>his</hi> too. Not but that there is a great <hi>reſpect</hi> and <hi>honour</hi> due to our re<g ref="char:EOLhyphen"/>nowned <hi>Generall,</hi> who is indeed a <hi>Glorious Inſtrument,</hi> but ſtill in the <hi>hand</hi> of <hi>God;</hi> God hath highly honoured him <hi>in</hi> that work and we ſhould be very unthankfull, if, in his place, we doe not honour him <hi>for</hi> it; but ſtill though we may look
+<pb n="31" facs="tcp:94467:19"/>
+                     <hi>upon</hi> the inſtrùment, yet we muſt look <hi>above</hi> it; let us be <hi>thankfull</hi> to inſtruments, but withall, let us be <hi>ſober</hi> too; let us give <hi>man</hi> what is <hi>man's;</hi> but <hi>God</hi> what is <hi>God's, pay</hi> the <hi>one, rob not</hi> the <hi>other.</hi>
+                  </p>
+                  <p n="2">2. Be adviſed, that you doe not <hi>abuſe</hi> this ſignall Mercy of God to us and ours; it is ſad to conſider, that many <hi>Gentlemen</hi> and others, who pretend to be the moſt <hi>Loyall Subjects</hi> of England, do, upon that account, grow moſt <hi>prophane.</hi> Some men's <hi>Allegiance</hi> is litle evidenced, but on<g ref="char:EOLhyphen"/>ly in <hi>drinking</hi> his Majeſty's <hi>health;</hi> men, never <hi>valiant,</hi> but when halfe <hi>drunk;</hi> never <hi>more for</hi> the <hi>King,</hi> then when they are not <hi>for themſelves.</hi> Sure I am, ſuch perſons are like to doe the King more <hi>injury</hi> in the <hi>Taverne,</hi> then <hi>ſervice</hi> in the field; inſtead of drinking the Kings <hi>health,</hi> I feare, they have drunk <hi>one</hi> Kings <hi>death</hi> already; they mingled the <hi>Kings Bloud</hi> with their <hi>owne wine.</hi> Certaine it is, that many of our late <hi>Gra<g ref="char:EOLhyphen"/>cious Kings Friends</hi> proved the <hi>worſt</hi> of his <hi>Enemies; they</hi> were the men, that <hi>ſhamed</hi> the <hi>Cauſe</hi> which they <hi>owned,</hi> and <hi>deſtroy-the King,</hi> pretending to <hi>d<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>fend</hi> him.</p>
+                  <p>
+                     <hi>Gentlemen,</hi> if you looke upon our <hi>preſent Soveraigne</hi> as a <hi>Prince</hi> likely to <hi>encourage prophanes,</hi> I muſt tell you, that <hi>you</hi> do the <hi>King</hi> more <hi>wrong,</hi> then <hi>they,</hi> which lately looked upon him, as the <hi>Common Enemy.</hi> It is not eaſie to ſay, whether the <hi>King ſuffers</hi> more by the pretendly <hi>pious Rebell,</hi> or by the <hi>prophane</hi> pretended <hi>Loyaliſt;</hi> the <hi>ſins</hi> of a <hi>prophane</hi> Loy<g ref="char:EOLhyphen"/>aliſt <hi>draw</hi> that ſword, which the <hi>hands</hi> of <hi>Rebels fight</hi> with; the <hi>rebell kils</hi> with a <hi>Threatning,</hi> the <hi>prophane</hi> Loyaliſt <hi>wounds</hi> with a <hi>Complement.</hi>
+                  </p>
+                  <p>But how ever, if by the <hi>reſtitution</hi> of our <hi>King,</hi> men ex<g ref="char:EOLhyphen"/>pect a <hi>reſtitution</hi> either of <hi>prophanes,</hi> on the one hand; or <hi>ſuperſtition</hi> on the other: I do not doubt, but as <hi>God</hi> hath <hi>diſappointed</hi> the ſad <hi>feares</hi> of his <hi>Saints:</hi> ſo alſo our <hi>King</hi> him<g ref="char:EOLhyphen"/>ſelfe will <hi>diſappoint</hi> the <hi>wicked hopes</hi> of <hi>ſinners;</hi> God hath given us a <hi>King;</hi> a <hi>mercy,</hi> wee hope, that will prevent the <hi>ruine</hi> of our <hi>Nation:</hi> yea but God hath given us, wee truſt, a <hi>pious
+<pb n="32" facs="tcp:94467:20"/>
+King;</hi> a <hi>Mercy,</hi> that will prevent the <hi>ruine</hi> of our <hi>Religion; Gentlemen;</hi> if you are <hi>for</hi> the <hi>King,</hi> be alſo <hi>for God; O remember</hi> to <hi>Render unto C<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſar, the things that are Ceſars:</hi> but, O <hi>forget</hi> not that which followeth, <hi>Render to God th<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> things that are God's:</hi> Be <hi>Loyall,</hi> but, be not <hi>prophane: Honour th<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> King:</hi> but withall, <hi>Feare God:</hi> Why ſhould man <hi>part aſunder</hi> what God himſelf hath <hi>joyned together?</hi> But,</p>
+                  <p n="2">2. To His <hi>Gracious Maj<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſty</hi> himſelfe, a word, 1. of <hi>Apologie.</hi> 2. of <hi>Requeſt.</hi>
+                  </p>
+                  <p n="1">1. A word of <hi>Apology</hi> for <hi>my ſelfe: Who am I that I ſhould ſpeak unto the King!</hi> but, O my <hi>Dread Sov<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>raigne,</hi> I am <hi>one,</hi> though the <hi>meaneſt</hi> of thoſe, that love your Majeſtie's <hi>Sacred Perſon,</hi> and ſhall, <hi>to death, obey</hi> Your Sacred <hi>commands:</hi> I have a <hi>ſoul,</hi> as well as a <hi>Sermon,</hi> to <hi>welcome</hi> You to Your <hi>Throne:</hi> nay I can yet, with <hi>modeſty,</hi> ſay a little more: I ever owned Your <hi>Majeſty,</hi> as my <hi>King</hi> and <hi>Father,</hi> even then, when your <hi>Majeſty</hi> ſeemed <hi>far</hi> enough from <hi>recovering</hi> your Kingdome. Indeed, I had not an <hi>hand</hi> able to <hi>fight</hi> for your <hi>Majeſty,</hi> nor an <hi>eſtate</hi> able to <hi>contribute:</hi> yet I had an <hi>h<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>art</hi> to <hi>pray,</hi> a <hi>Tongue</hi> to <hi>Speak,</hi> and a <hi>Pen</hi> to <hi>write;</hi> that, which was then my <hi>hazard,</hi> is now my <hi>comfort;</hi> and, I hope, a <hi>ſure Teſtimony</hi> of my <hi>Loy<g ref="char:EOLhyphen"/>alty</hi> too; Sure<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y, <hi>Reſpect</hi> to a <hi>Prince,</hi> when <hi>attended</hi> with <hi>dan<g ref="char:EOLhyphen"/>ger,</hi> needs no <hi>witneſſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> to prove it ſelfe to be <hi>right Allegiance.</hi> Indeed, <hi>duty,</hi> when done with <hi>ſafety,</hi> may ſeeme to <hi>loſe</hi> it's <hi>Nature</hi> and <hi>Name:</hi> but <hi>duty,</hi> when done in <hi>danger,</hi> ſeemes to be done <hi>out of Duty</hi> indeed. <hi>Allegiance</hi> to a <hi>King,</hi> when it is <hi>ſure<g ref="char:EOLhyphen"/>ly ſafe,</hi> and <hi>poſſibly</hi> may be <hi>ad<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>antag<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ous</hi> too, may be inter<g ref="char:EOLhyphen"/>preted as a <hi>bare compliance</hi> onely: but <hi>Allegiance, void</hi> of <hi>hope</hi> and <hi>full</hi> of <hi>feare,</hi> lookes like <hi>it ſelfe,</hi> and deſerveth it's <hi>owne name.</hi> That wee, who <hi>ev<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>r</hi> continued your <hi>Majeſties Loyall</hi> Subjects, did not do our <hi>whole</hi> duty, argueth the <hi>weak<g ref="char:EOLhyphen"/>nes</hi> of our <hi>courage:</hi> yet, that wee <hi>did</hi> do <hi>a little,</hi> argueth the <hi>ſincerity</hi> of our <hi>Obedience:</hi> and if ſo, if our <hi>former Reſpects</hi> to your <hi>Majeſty,</hi> in your <hi>ſufferings,</hi> muſt be acknowledged to flow from <hi>Conſcience,</hi> I hope, our <hi>preſent reſpect</hi> can not <hi>rea<g ref="char:EOLhyphen"/>ſonably</hi>
+                     <pb n="33" facs="tcp:94467:20"/>
+be judged to proceed from <hi>flattery.</hi> I dare not thinke, that the <hi>Allegiance</hi> of <hi>Loyall Subjects</hi> ſhall <hi>loſe</hi> it's <hi>name,</hi> be<g ref="char:EOLhyphen"/>cauſe our <hi>King</hi> hath <hi>recovered</hi> His <hi>Crowne.</hi> But, I ſhould not <hi>at all</hi> have <hi>mentioned</hi> what we have <hi>done,</hi> were it not my <hi>onely argument</hi> to prevaile for your <hi>Majeſty's Pardon</hi> for what I have now to <hi>ſay,</hi> and that in <hi>two words</hi> of <hi>Requeſt.</hi>
+                  </p>
+                  <p n="1">1. A word of <hi>requeſt</hi> for <hi>my ſelfe</hi> and my <hi>fellow ſubjects;</hi> Dread <hi>Soveraign,</hi> we have <hi>all,</hi> more or leſſe, had our <hi>miſcar<g ref="char:EOLhyphen"/>riages</hi> towards your <hi>Majeſty;</hi> I am Bold, in the name of all, to beg your <hi>Majeſty's Pardon;</hi> to <hi>preſſe</hi> your Majeſty with <hi>Arguments,</hi> were to <hi>diſtruſt</hi> your <hi>forwardneſſe</hi> to mercy; were not your mercy <hi>eaſily</hi> obtained, I ſhould intreat ſome <hi>better Oratour</hi> to <hi>beg</hi> it. I cannot more <hi>highly magnifie</hi> the <hi>mercy</hi> of our <hi>King,</hi> then by ſaying, that it ſeems as <hi>great</hi> as the <hi>miſcarriages</hi> of his <hi>ſubjects;</hi> ſurely, England ſtands guilty of a <hi>thouſand</hi> miſcarriages; and yet, I underſtand, there is with <hi>our King,</hi> as with <hi>our God,</hi> But <hi>one</hi> ſin <hi>unpardonable:</hi> and why that one? Surely, there is <hi>mercy</hi> enough in our <hi>God,</hi> and in our <hi>King,</hi> to pardon even <hi>this</hi> ſin alſo; but there is not a <hi>Capacity</hi> in the <hi>ſin</hi> it ſelfe to <hi>be pardoned;</hi> it <hi>might</hi> be pardoned, but <hi>cannot.</hi>
+                  </p>
+                  <p>
+                     <hi>Dread Sir,</hi>
+                  </p>
+                  <p>As to the <hi>Death</hi> of your <hi>Royall Father,</hi> (now with <hi>God)</hi> I think, this diſcourſe doth ſufficiently evidence, that my ſoule <hi>abhorres</hi> the <hi>act,</hi> as <hi>abominable;</hi> and the <hi>Grand Contri<g ref="char:EOLhyphen"/>vers</hi> of it, as <hi>Notorious;</hi> I do not become <hi>their Advocate,</hi> nor <hi>plead</hi> for them, who, I hope, have nothing but <hi>repentance</hi> and <hi>ſhame</hi> to plead for themſelves: But, <hi>Sir,</hi> there are ſome <hi>petty Traytours,</hi> ſome <hi>
+                        <g ref="char:V">Ʋ</g>nder-Rebels,</hi> who, as they <hi>now need,</hi> ſo, I hope, <hi>in time,</hi> by <hi>teares</hi> and <hi>obedience,</hi> may <hi>deſerve</hi> your <hi>Majeſty's mercy.</hi> There are ſome perſons amongſt us, I dare not ſay, men of <hi>more religion</hi> then <hi>L<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>yalty;</hi> but I am per<g ref="char:EOLhyphen"/>ſwaded, men of <hi>more Conſcience</hi> then <hi>Knowledg;</hi> perſons,
+<pb n="34" facs="tcp:94467:21"/>
+whoſe <hi>blame</hi> lieth more in their <hi>heads,</hi> then in their <hi>hearts,</hi> perſons indeed, who have <hi>acted</hi> againſt your Majeſty, yet what they have done, they have rather done by <hi>other</hi> men's <hi>heads,</hi> then their <hi>own hands.</hi> It is <hi>far</hi> from me to <hi>excuſe</hi> the <hi>ſin,</hi> yet would I fain <hi>interpoſe</hi> for the <hi>Perſon;</hi> when I conſider, what <hi>theſe</hi> men have <hi>done,</hi> indeed they look like <hi>objects</hi> of <hi>ju<g ref="char:EOLhyphen"/>ſtice,</hi> but when I conſider, what they have <hi>been</hi> and <hi>are,</hi> perſons indeed <hi>drawn away,</hi> but eaſily <hi>reducible</hi> to their <hi>Obedience,</hi> I would fain recommend them to your <hi>Majeſty,</hi> as <hi>objects</hi> of <hi>mercy.</hi> But why do I beat the air? Why do I <hi>plead</hi> for that which ſeems already <hi>granted?</hi> I ſhould rather <hi>thank<g ref="char:EOLhyphen"/>fully acknowledg,</hi> then <hi>humbly beg</hi> your Majeſty's <hi>mercy,</hi> onely thus, we beg a <hi>Pardon,</hi> an <hi>act</hi> of <hi>Oblivion,</hi> that may be <hi>paſſed,</hi> not only in a <hi>Parliament Houſe,</hi> but in your <hi>Majeſty's bo<g ref="char:EOLhyphen"/>ſome.</hi>
+                  </p>
+                  <p n="2">2. A word of <hi>Requeſt</hi> for <hi>God</hi> and his <hi>Church.</hi>
+                  </p>
+                  <p>
+                     <hi>Dread Soveraign,</hi>
+                  </p>
+                  <p>I have often pleaded with <hi>God</hi> for your <hi>Majeſty's Intereſt;</hi> pardon me, if I now plead with your Majeſty for the <hi>Intereſt</hi> of <hi>God.</hi> I need not <hi>mind</hi> your Majeſty of that, which, I know, you can never <hi>forget;</hi> Onely thus; <hi>God</hi> hath <hi>now</hi> done <hi>great</hi> and <hi>Glorious</hi> things for your <hi>Maieſty:</hi> and ſurely, God doth <hi>now expect,</hi> that your <hi>Maieſty,</hi> in the ſenſe of his <hi>Mercy,</hi> your kingdomes <hi>neceſſity,</hi> and your <hi>own duty,</hi> ſhould <hi>do great</hi> things for <hi>God</hi> and his <hi>Church.</hi>
+                  </p>
+                  <p>God hath now, we truſt, <hi>eſtabliſhed</hi> your <hi>Maieſty</hi> upon <hi>your Throne;</hi> And O may your <hi>Maieſty</hi> exalt <hi>Chriſt</hi> upon <hi>His:</hi> God hath made your Majeſty the <hi>Protectour</hi> of your <hi>own ſub<g ref="char:EOLhyphen"/>iects,</hi> and O may your <hi>Maieſty</hi> be the <hi>Protectour</hi> of <hi>his Saints</hi> and <hi>Servants!</hi> the <hi>Church</hi> of <hi>England</hi> hath now <hi>too much</hi> need of a <hi>Prince,</hi> (and therefore of your <hi>Maieſty)</hi> that may not only be <hi>ſtiled,</hi> but <hi>bee,</hi> a <hi>Def<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nder</hi> of the <hi>Faith.</hi> God hath now reſtored your <hi>Maieſty</hi> to the <hi>Government</hi> of <hi>Our
+<pb n="35" facs="tcp:94467:21"/>
+State;</hi> And O may your <hi>Majeſty</hi> reſtore and ſettle a <hi>righ<g ref="char:EOLhyphen"/>teous Government</hi> in <hi>Gods Church!</hi> the want of a Govern<g ref="char:EOLhyphen"/>ment hath bred <hi>Confuſions</hi> in our <hi>State,</hi> and <hi>diſtractions</hi> in our <hi>Church:</hi> for want of a <hi>fence,</hi> the <hi>boar</hi> and the <hi>fox</hi> have got into the <hi>Vineyard</hi> of Chriſt: the Bore <hi>ſtrikes</hi> at the <hi>Vine,</hi> the Fox <hi>eates</hi> up the <hi>Grapes.</hi> For want of <hi>hirdles,</hi> the poor <hi>ſheep</hi> of Chriſt have <hi>wandred,</hi> and fell among <hi>devouring Wolves.</hi> Now, the <hi>Lord</hi> make your <hi>Maieſty</hi> more and more ſenſible of <hi>his Merci<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s</hi> and his <hi>Church's Miſeries!</hi> the Lord make you a <hi>Nurſing Father</hi> to <hi>Sion,</hi> but a <hi>Step-Father</hi> to <hi>Ba<g ref="char:EOLhyphen"/>bylon!</hi> As your <hi>Maieſty</hi> hath been a <hi>King</hi> of <hi>Prayers,</hi> ſo may you be a <hi>King</hi> of <hi>Prayſes</hi> too! The <hi>Lord</hi> increaſe the <hi>honour</hi> of your <hi>Temporall Crown</hi> on <hi>Earth!</hi> but <hi>above</hi> all, the Good <hi>Lord</hi> prepare your <hi>Maieſty</hi> for the <hi>Weight</hi> of an <hi>immortall Crown</hi> in <hi>Heaven!</hi> In the mean time, O may your <hi>Maieſty</hi> be, the <hi>love</hi> of <hi>Saints,</hi> the <hi>fear</hi> of <hi>Sinners!</hi>
+                  </p>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
